@@ -51,13 +51,12 @@ Here are several important properties of Pauli matrices:
     $$
     [\sigma_x, \sigma_x] = [\sigma_y, \sigma_y] = [\sigma_z, \sigma_z] = 0
     $$
-     
-
+    
   * One Pauli matrix does not commute with another Pauli matrix,
     $$
     [\sigma_x, \sigma_y] = 2i\sigma_z, [\sigma_y, \sigma_z] = 2i\sigma_x, [\sigma_z, \sigma_x] = 2i\sigma_y
     $$
-
+  
 * The anticommutation rules for Pauli matrices are given by
 
   * Pauli matrices do not anticommute with themselves,

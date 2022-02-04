@@ -30,4 +30,7 @@ We can use the density matrix operator to describe the 5 axioms.
 
 #### Pure and Mixed State
 
-The above is for pure state, and the below would concern mixed state. 
+The above is for pure state, and the below would concern mixed state. The expectation value of mixed state is given by
+$$
+\langle A\rangle = \sum_{i}p_{i} \langle \psi_i|A|\psi_i\rangle = \sum p_i {\rm Tr}(A|\psi\rangle\langle \psi|) = {\rm Tr}(A\rho)
+$$

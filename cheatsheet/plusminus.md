@@ -1,4 +1,4 @@
-### About the $|+\rangle$ or $|-\rangle$ states
+## About the $|+\rangle$ or $|-\rangle$ states
 
 The Hadamard gate is given by
 $$
@@ -6,10 +6,61 @@ H= \frac{1}{\sqrt{2}}\begin{pmatrix}
 1 & 1 \\ 1 & -1
 \end{pmatrix}
 $$
-For $|0\rangle$ and $|1\rangle$, we have
+Here are several important properties of Hadmard gate:
+
+* Hadmard gate is hermitian, $H^{\dagger} = H$
+
+* Hadmard gate is unitary, $H^{\dagger}H = HH = I$, or 
+  $$
+  HH = \frac{1}{2}\begin{pmatrix}
+  1 & 1 \\ 1 & -1
+  \end{pmatrix}\begin{pmatrix}
+  1 & 1 \\ 1 & -1
+  \end{pmatrix} = \frac{1}{2}\begin{pmatrix}
+  2 & 0 \\ 0 & 2
+  \end{pmatrix} = I
+  $$
+
+* For state $|0\rangle$ and $|1\rangle$, 
+  $$
+  H|0\rangle = |+\rangle,H|1\rangle = |-\rangle, H|+\rangle = |0\rangle, H|-\rangle = |1\rangle
+  $$
+  or, 
+
 $$
-H|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) = |+\rangle \\
-H|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle) = |-\rangle
+\begin{align}
+H|0\rangle &= \frac{1}{\sqrt{2}}\begin{pmatrix}
+1 & 1 \\ 1 & -1
+\end{pmatrix}\begin{pmatrix}
+1 \\0
+\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}
+1 \\1
+\end{pmatrix} = |+\rangle  \\
+
+H|1\rangle &= \frac{1}{\sqrt{2}}\begin{pmatrix}
+1 & 1 \\ 1 & -1
+\end{pmatrix}\begin{pmatrix}
+0 \\ 1
+\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}
+1 \\ -1
+\end{pmatrix} = |-\rangle \\
+
+H|+\rangle &= \frac{1}{2}\begin{pmatrix}
+1 & 1 \\ 1 & -1
+\end{pmatrix}\begin{pmatrix}
+1 \\ 1
+\end{pmatrix} = \frac{1}{2}\begin{pmatrix}
+2 \\ 0
+\end{pmatrix} = |0\rangle  \\
+
+H|-\rangle &= \frac{1}{2}\begin{pmatrix}
+1 & 1 \\ 1 & -1
+\end{pmatrix}\begin{pmatrix}
+1 \\ -1
+\end{pmatrix} = \frac{1}{2}\begin{pmatrix}
+0 \\ 2
+\end{pmatrix} = |1\rangle
+\end{align}
 $$
 For a random state $|\psi\rangle = \alpha |0\rangle + \beta |1\rangle$, we have
 $$

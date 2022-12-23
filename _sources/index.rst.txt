@@ -7,9 +7,10 @@ Welcome to NielsenChuang Solution's documentation!
 ==================================================
 
 .. toctree::
-   :hidden:
+   :maxdepth: 2
+   :caption: Contents:
 
-   Chapter2
-   Chapter4
+   Exer2-2.md
+   Exer4-2.md
 
 

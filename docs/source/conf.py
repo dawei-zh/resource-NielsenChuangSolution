@@ -13,7 +13,6 @@ sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 project = 'NielsenChuang Solution'
 copyright = '2022, dawei-zh'
 author = 'dawei-zh'
-release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -21,6 +20,17 @@ release = '0.1'
 extensions = [
     'myst_parser', 
 ]
+
+html_sidebars = {
+    "**": [
+        "sidebar/scroll-start.html",
+        "sidebar/brand.html",
+        "sidebar/search.html",
+        "sidebar/navigation.html",
+        "sidebar/ethical-ads.html",
+        "sidebar/scroll-end.html",
+    ]
+}
 
 templates_path = ['_templates']
 exclude_patterns = []

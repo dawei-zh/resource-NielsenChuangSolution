@@ -2,13 +2,13 @@
 <html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="Exercise 2.2" href="Exer2-2.html" />
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Exercise 4.2" href="Exer4-2.html" /><link rel="prev" title="Exercise 2.2" href="../Chapter2/Exer2-2.html" />
 
     <!-- Generated with Sphinx 4.1.2 and Furo 2022.12.07 -->
-        <title>Exercise 4.2 - NielsenChuang Solution 0.1 documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+        <title>Chapter 4 - NielsenChuang Solution documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
     
     
 
@@ -122,7 +122,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="index.html"><div class="brand">NielsenChuang Solution 0.1 documentation</div></a>
+      <a href="../index.html"><div class="brand">NielsenChuang Solution  documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -142,26 +142,31 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+      <div class="sidebar-sticky"><div class="sidebar-scroll"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">NielsenChuang Solution 0.1 documentation</span>
+  <span class="sidebar-brand-text">NielsenChuang Solution  documentation</span>
   
-</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form>
-<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<div id="searchbox"></div><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Exercises</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="Exer2-2.html">Exercise 2.2</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Exercise 4.2</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Chapter2/index.html">Chapter 2</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Chapter2/Exer2-2.html">Exercise 2.2</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Chapter 4</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Exer4-2.html">Exercise 4.2</a></li>
+</ul>
+</li>
 </ul>
 
 </div>
 </div>
-
       </div>
       
     </div>
@@ -191,70 +196,15 @@
           </label>
         </div>
         <article role="main">
-          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-4-2">
-<h1>Exercise 4.2<a class="headerlink" href="#exercise-4-2" title="Permalink to this headline">#</a></h1>
-<p>Suppose <span class="math notranslate nohighlight">\(A\)</span> is a matrix such that <span class="math notranslate nohighlight">\(A^2 = I\)</span> and <span class="math notranslate nohighlight">\(x\)</span> is a real number. We can use Taylor expansion to calculate <span class="math notranslate nohighlight">\(\exp (iAx)\)</span> as
-$$</p>
-<div class="math-wrapper amsmath docutils container" id="equation-2c755541-d940-4336-97f1-d55ca1592652">
-<div class="amsmath math notranslate nohighlight" id="equation-2c755541-d940-4336-97f1-d55ca1592652">
-<span class="eqno">(1)<a class="headerlink" href="#equation-2c755541-d940-4336-97f1-d55ca1592652" title="Permalink to this equation">#</a></span>\[\begin{align}
-\exp (iAx) &amp;= \sum_{n=0}^{\infty}\frac{(iAx)^n}{n!} = I + iAx+\frac{i^2A^2x^2}{2!} + \frac{i^3A^3x^3}{3!} + \frac{i^4A^4x^4}{4!} + \dotsc \\
-\end{align}\]</div>
+          <div class="tex2jax_ignore mathjax_ignore section" id="chapter-4">
+<h1>Chapter 4<a class="headerlink" href="#chapter-4" title="Permalink to this headline">#</a></h1>
+<p>Furo supports everything you can do with standard Sphinx, as well as few recommended third-party Sphinx extensions.</p>
+<p>This section serves as a showcase for how things look in Furo, and provides a syntax reference for both [reStructuredText] and [Markdown (MyST)][myst-markdown].</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Exer4-2.html">Exercise 4.2</a></li>
+</ul>
 </div>
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[ \begin{align}\begin{aligned}
-From eq. $\eqref{1}$ we can find that, \\* If $n$​ is even number, we have
-  \end{aligned}\end{align} \]</div>
-</div>
-<div class="math-wrapper amsmath docutils container" id="equation-5d3e3737-0ea9-45fd-98c1-a1ba74d8ec28">
-<div class="amsmath math notranslate nohighlight" id="equation-5d3e3737-0ea9-45fd-98c1-a1ba74d8ec28">
-<span class="eqno">(2)<a class="headerlink" href="#equation-5d3e3737-0ea9-45fd-98c1-a1ba74d8ec28" title="Permalink to this equation">#</a></span>\[\begin{align}
-  n\text{ is even: }&amp;I -\frac{A^2x^2}{2!} + \frac{A^4x^4}{4!} - \frac{A^6x^6}{6!} + \frac{A^8x^8}{8!} - \frac{A^{10}x^{10}}{10!}+\dotsc  \\
-  =&amp; I -\frac{x^2}{2!}I + \frac{x^4}{4!}I - \frac{x^6}{6!}I + \frac{x^8}{8!}I - \frac{x^{10}}{10!}I+\dotsc 
-  \end{align}\]</div>
-</div>
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[* If $n$ is odd number we have
-  \]</div>
-</div>
-<div class="math-wrapper amsmath docutils container" id="equation-ecc049c9-e373-44e9-be26-f334766e2ceb">
-<div class="amsmath math notranslate nohighlight" id="equation-ecc049c9-e373-44e9-be26-f334766e2ceb">
-<span class="eqno">(3)<a class="headerlink" href="#equation-ecc049c9-e373-44e9-be26-f334766e2ceb" title="Permalink to this equation">#</a></span>\[\begin{align}
-  n\text{ is odd: }&amp;iAx -\frac{iA^3x^3}{3!} + \frac{iA^5x^5}{5!} - \frac{iA^7x^7}{7!} + \frac{iA^9x^9}{9!} - \frac{iA^{11}x^{11}}{11!}+\dotsc  \\
-  =&amp; iAx -\frac{iAx^3}{3!} + \frac{iAx^5}{5!} - \frac{iAx^7}{7!} + \frac{iAx^9}{9!} - \frac{iAx^{11}}{11!}+\dotsc 
-  \end{align}\]</div>
-</div>
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[where we simplify eq. $\eqref{2}$ and $\eqref{3}$ using $A^2 = I$​. Note that 
-\]</div>
-</div>
-<div class="math-wrapper amsmath docutils container" id="equation-00171f98-8501-4792-a991-cce57278e7ef">
-<div class="amsmath math notranslate nohighlight" id="equation-00171f98-8501-4792-a991-cce57278e7ef">
-<span class="eqno">(4)<a class="headerlink" href="#equation-00171f98-8501-4792-a991-cce57278e7ef" title="Permalink to this equation">#</a></span>\[\begin{align}
-\sin x &amp;= \sum^{\infty}_{n=0}\frac{(-1)^{n}}{(2n+1)!}x^{2n+1}  = x - \frac{x^3}{3!} + \frac{x^5}{5!}- \frac{x^7}{7!} + \frac{x^9}{9!} - \frac{x^{11}}{11!}+\dotsc \tag{4a}\label{4a}\\
-\cos x &amp;= \sum^{\infty}_{n=0}\frac{(-1)^{n}}{(2n)!}x^{2n} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!}I + \frac{x^8}{8!}I - \frac{x^{10}}{10!}I+\dotsc \tag{4b}\label{4b}
-\end{align}\]</div>
-</div>
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[
-we could rewrite eq. $\eqref{2}$ as $\cos(x) I$ and eq. $\eqref{3}$ as $i\sin(x)A$. Thus, we could re-write eq. $\eqref{1}$ as 
-\]</div>
-</div>
-<p>\exp (iAx) = \cos(x)I+  i\sin(x)A \tag{5}\label{5}
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[
-From the textbook, we know that the rotation operator about the $\hat{x}, \hat{y}, \hat{z}$ axes are defined by
-\]</div>
-</div>
-
-R_x(\theta) = e^{-i\theta X/2}, R_y(\theta) = e^{-i\theta Y/2}, R_z(\theta) = e^{-i\theta Z/2} \tag{6}\label{6}
-$<span class="math notranslate nohighlight">\(
-Let \)</span>x = -\theta/2<span class="math notranslate nohighlight">\( and \)</span>A = X, Y, Z<span class="math notranslate nohighlight">\( for \)</span>R_x(\theta), R_y(\theta), R_z(\theta)$, respectively, we could rewrite the rotation operator as</p>
 </div>
 
         </article>
@@ -262,8 +212,16 @@ Let \)</span>x = -\theta/2<span class="math notranslate nohighlight">\( and \)</
       <footer>
         
         <div class="related-pages">
-          
-          <a class="prev-page" href="Exer2-2.html">
+          <a class="next-page" href="Exer4-2.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Exercise 4.2</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../Chapter2/Exer2-2.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
@@ -298,12 +256,10 @@ Let \)</span>x = -\theta/2<span class="math notranslate nohighlight">\( and \)</
       
     </aside>
   </div>
-</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/scripts/furo.js"></script>
-    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+</div><script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/furo.js"></script>
     </body>
 </html>

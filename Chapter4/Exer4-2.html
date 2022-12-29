@@ -2,13 +2,13 @@
 <html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Exercise 4.2" href="Exer4-2.html" /><link rel="prev" title="Welcome to NielsenChuang Solution’s documentation!" href="index.html" />
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="prev" title="Chapter 4" href="index.html" />
 
     <!-- Generated with Sphinx 4.1.2 and Furo 2022.12.07 -->
-        <title>Exercise 2.2 - NielsenChuang Solution 0.1 documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+        <title>Exercise 4.2 - NielsenChuang Solution documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
     
     
 
@@ -122,7 +122,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="index.html"><div class="brand">NielsenChuang Solution 0.1 documentation</div></a>
+      <a href="../index.html"><div class="brand">NielsenChuang Solution  documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -142,26 +142,31 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+      <div class="sidebar-sticky"><div class="sidebar-scroll"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">NielsenChuang Solution 0.1 documentation</span>
+  <span class="sidebar-brand-text">NielsenChuang Solution  documentation</span>
   
-</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form>
-<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<div id="searchbox"></div><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Exercises</span></p>
 <ul class="current">
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Exercise 2.2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Exer4-2.html">Exercise 4.2</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Chapter2/index.html">Chapter 2</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Chapter2/Exer2-2.html">Exercise 2.2</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Chapter 4</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Exercise 4.2</a></li>
+</ul>
+</li>
 </ul>
 
 </div>
 </div>
-
       </div>
       
     </div>
@@ -191,107 +196,77 @@
           </label>
         </div>
         <article role="main">
-          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-2-2">
-<h1>Exercise 2.2<a class="headerlink" href="#exercise-2-2" title="Permalink to this headline">#</a></h1>
-<p>Suppose <span class="math notranslate nohighlight">\(V\)</span>​ is a vector space with basis vector <span class="math notranslate nohighlight">\(|v_1\rangle = |0\rangle\)</span>​ and <span class="math notranslate nohighlight">\(|v_2\rangle = |1\rangle \)</span>​, and <span class="math notranslate nohighlight">\(A: V\to V\)</span>​ is a linear operator. Since we have <span class="math notranslate nohighlight">\(A|0\rangle = |1\rangle\)</span>​ and <span class="math notranslate nohighlight">\(A|1\rangle = |0\rangle\)</span>​, according to eq. (2.12) in the book, we could find the matrix entries from
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[\begin{split}
-\begin{cases}
-A|v_1\rangle = A|0\rangle = A_{11}|0\rangle + A_{21}|1\rangle = |1\rangle\\
-A|v_2\rangle = A|1\rangle = A_{12}|0\rangle + A_{22}|1\rangle = |0\rangle\\
-\end{cases} \tag{1}\label{1}
+          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-4-2">
+<h1>Exercise 4.2<a class="headerlink" href="#exercise-4-2" title="Permalink to this headline">#</a></h1>
+<p>Suppose <span class="math notranslate nohighlight">\(A\)</span> is a matrix such that <span class="math notranslate nohighlight">\(A^2 = I\)</span> and <span class="math notranslate nohighlight">\(x\)</span> is a real number. We can use Taylor expansion to calculate <span class="math notranslate nohighlight">\(\exp (iAx)\)</span> as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-1">
+<div class="math notranslate nohighlight" id="equation-eqn-1">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eqn-1" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+\exp (iAx) &amp;= \sum_{n=0}^{\infty}\frac{(iAx)^n}{n!} = I + iAx+\frac{i^2A^2x^2}{2!} + \frac{i^3A^3x^3}{3!} + \frac{i^4A^4x^4}{4!} + \dotsc \\
+\end{align}
 \end{split}\]</div>
 </div>
-
-From eq. <span class="math notranslate nohighlight">\(\eqref{1}\)</span> we could conclude that
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[\begin{split}
-A = \begin{pmatrix}
-A_{11} &amp; A_{12} \\
-A_{21} &amp; A_{22} \\
-\end{pmatrix} = \begin{pmatrix}
-0 &amp; 1 \\
-1 &amp; 0 \\
-\end{pmatrix}\tag{2}
+<p>From eq. <a class="reference internal" href="#equation-eqn-1">(1)</a> we can find that,</p>
+<ul>
+<li><p>If <span class="math notranslate nohighlight">\(n\)</span>​ is even number, we have</p>
+<div class="math-wrapper docutils container" id="equation-eqn-2">
+<div class="math notranslate nohighlight" id="equation-eqn-2">
+<span class="eqno">(2)<a class="headerlink" href="#equation-eqn-2" title="Permalink to this equation">#</a></span>\[\begin{split}
+  \begin{align}
+  n\text{ is even: }&amp;I -\frac{A^2x^2}{2!} + \frac{A^4x^4}{4!} - \frac{A^6x^6}{6!} + \frac{A^8x^8}{8!} - \frac{A^{10}x^{10}}{10!}+\dotsc  \\
+  =&amp; I -\frac{x^2}{2!}I + \frac{x^4}{4!}I - \frac{x^6}{6!}I + \frac{x^8}{8!}I - \frac{x^{10}}{10!}I+\dotsc 
+  \end{align}
+  \end{split}\]</div>
+</div>
+</li>
+<li><p>If <span class="math notranslate nohighlight">\(n\)</span> is odd number we have</p>
+<div class="math-wrapper docutils container" id="equation-eqn-3">
+<div class="math notranslate nohighlight" id="equation-eqn-3">
+<span class="eqno">(3)<a class="headerlink" href="#equation-eqn-3" title="Permalink to this equation">#</a></span>\[\begin{split}
+  \begin{align}
+  n\text{ is odd: }&amp;iAx -\frac{iA^3x^3}{3!} + \frac{iA^5x^5}{5!} - \frac{iA^7x^7}{7!} + \frac{iA^9x^9}{9!} - \frac{iA^{11}x^{11}}{11!}+\dotsc  \\
+  =&amp; iAx -\frac{iAx^3}{3!} + \frac{iAx^5}{5!} - \frac{iAx^7}{7!} + \frac{iAx^9}{9!} - \frac{iAx^{11}}{11!}+\dotsc 
+  \end{align}
+  \end{split}\]</div>
+</div>
+</li>
+</ul>
+<p>where we simplify eq. <a class="reference internal" href="#equation-eqn-2">(2)</a> and <a class="reference internal" href="#equation-eqn-3">(3)</a> using <span class="math notranslate nohighlight">\(A^2 = I\)</span>​. Note that</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4">
+<div class="math notranslate nohighlight" id="equation-eqn-4">
+<span class="eqno">(4)<a class="headerlink" href="#equation-eqn-4" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+\sin x &amp;= \sum^{\infty}_{n=0}\frac{(-1)^{n}}{(2n+1)!}x^{2n+1}  = x - \frac{x^3}{3!} + \frac{x^5}{5!}- \frac{x^7}{7!} + \frac{x^9}{9!} - \frac{x^{11}}{11!}+\dotsc \\
+\cos x &amp;= \sum^{\infty}_{n=0}\frac{(-1)^{n}}{(2n)!}x^{2n} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!}I + \frac{x^8}{8!}I - \frac{x^{10}}{10!}I+\dotsc 
+\end{align}
 \end{split}\]</div>
 </div>
-
-Suppose we have a different basis of <span class="math notranslate nohighlight">\(V\)</span> with
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[
-|+\rangle = \frac{|0\rangle + |1\rangle}{\sqrt{2}}, |-\rangle = \frac{|0\rangle - |1\rangle}{\sqrt{2}} \tag{3}\label{3}
+<p>we could rewrite eq. <a class="reference internal" href="#equation-eqn-2">(2)</a> as <span class="math notranslate nohighlight">\(\cos(x) I\)</span> and eq. <a class="reference internal" href="#equation-eqn-3">(3)</a> as <span class="math notranslate nohighlight">\(i\sin(x)A\)</span>. Thus, we could re-write eq. <a class="reference internal" href="#equation-eqn-1">(1)</a>as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-5">
+<div class="math notranslate nohighlight" id="equation-eqn-5">
+<span class="eqno">(5)<a class="headerlink" href="#equation-eqn-5" title="Permalink to this equation">#</a></span>\[
+\exp (iAx) = \cos(x)I+  i\sin(x)A
 \]</div>
 </div>
-
-To check whether they are basis, we could do
-$$</p>
-<div class="math-wrapper amsmath docutils container" id="equation-979fe7d2-538f-4722-b702-3f3f257219bd">
-<div class="amsmath math notranslate nohighlight" id="equation-979fe7d2-538f-4722-b702-3f3f257219bd">
-<span class="eqno">(1)<a class="headerlink" href="#equation-979fe7d2-538f-4722-b702-3f3f257219bd" title="Permalink to this equation">#</a></span>\[\begin{align}
-\langle +|+\rangle &amp;= \frac{\langle 0 | + \langle 1|}{\sqrt{2}}\cdot\frac{|0\rangle + |1\rangle}{\sqrt{2}} = \frac{\langle 0 |0\rangle + \langle 1|1\rangle}{2} = 1 \\
-\langle +|-\rangle &amp;= \frac{\langle 0 | + \langle 1|}{\sqrt{2}}\cdot\frac{|0\rangle - |1\rangle}{\sqrt{2}} = \frac{\langle 0 |0\rangle - \langle 1|1\rangle}{2} = 0 \\
-\langle -|+\rangle &amp;= \frac{\langle 0 | - \langle 1|}{\sqrt{2}}\cdot\frac{|0\rangle + |1\rangle}{\sqrt{2}} = \frac{\langle 0 |0\rangle - \langle 1|1\rangle}{2} = 0 \\
-\end{align}\]</div>
-</div>
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[
-Then we could conclude from eq. $\eqref{4}$ that the basis defined in eq. $\eqref{3}$ is a valid orthonormal basis. Under the basis of eq. $\eqref{3}$, basis vectors $|0\rangle$ and $|1\rangle$ becomes
+<p>From the textbook, we know that the rotation operator about the <span class="math notranslate nohighlight">\(\hat{x}, \hat{y}, \hat{z}\)</span> axes are defined by</p>
+<div class="math-wrapper docutils container" id="equation-eqn-6">
+<div class="math notranslate nohighlight" id="equation-eqn-6">
+<span class="eqno">(6)<a class="headerlink" href="#equation-eqn-6" title="Permalink to this equation">#</a></span>\[
+R_x(\theta) = e^{-i\theta X/2}, R_y(\theta) = e^{-i\theta Y/2}, R_z(\theta) = e^{-i\theta Z/2}
 \]</div>
 </div>
-<p>|0\rangle = \frac{|+\rangle+|-\rangle}{\sqrt{2}}, |1\rangle = \frac{|+\rangle-|-\rangle}{\sqrt{2}}\tag{5}\label{5}
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[
-From eq. $\eqref{5}$, eq. $\eqref{3}$ becomes
-\]</div>
+<p>Let <span class="math notranslate nohighlight">\(x = -\theta/2\)</span> and <span class="math notranslate nohighlight">\(A = X, Y, Z\)</span> for <span class="math notranslate nohighlight">\(R_x(\theta), R_y(\theta), R_z(\theta)\)</span>, respectively, we could rewrite the rotation operator as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-7">
+<div class="math notranslate nohighlight" id="equation-eqn-7">
+<span class="eqno">(7)<a class="headerlink" href="#equation-eqn-7" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+R_x(\theta) &amp;= e^{-i\theta X/2} = \cos\frac{\theta}{2}I - i\sin\frac{\theta}{2} X\\
+R_y(\theta) &amp;= e^{-i\theta Y/2}=\cos\frac{\theta}{2}I - i\sin\frac{\theta}{2} Y\\
+R_z(\theta) &amp;= e^{-i\theta Z/2} =\cos\frac{\theta}{2}I - i\sin\frac{\theta}{2} Z
+\end{align}
+\end{split}\]</div>
 </div>
-
-\begin{dcases}
-A|0\rangle = A\left(\frac{|+\rangle + |-\rangle }{\sqrt{2}}\right) = \frac{A|+\rangle + A|-\rangle }{\sqrt{2}} = |1\rangle = \frac{|+\rangle-|-\rangle}{\sqrt{2}}\
-A|1\rangle = A\left(\frac{|+\rangle - |-\rangle }{\sqrt{2}}\right) = \frac{A|+\rangle - A|-\rangle }{\sqrt{2}} = |0\rangle = \frac{|+\rangle+|-\rangle}{\sqrt{2}}\
-\end{dcases} \tag{6}\label{6}
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[
-From eq. $\eqref{6}$ we could find that 
-\]</div>
-</div>
-
-\begin{cases}
-A|+\rangle = |+\rangle \
-A|-\rangle = -|-\rangle
-\end{cases} \tag{7}
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[
-Using similar method with eq. $\eqref{1}$, we obtain
-\]</div>
-</div>
-
-\begin{cases}
-A|v_1\rangle = A|+\rangle = A_{11}|+\rangle + A_{21}|-\rangle = |+\rangle\
-A|v_2\rangle = A|-\rangle = A_{12}|+\rangle + A_{22}|-\rangle = -|-\rangle\
-\end{cases}\tag{8}
-<div class="math-wrapper docutils container">
-<div class="math notranslate nohighlight">
-\[
-Thus, the matrix representation of $A$ in basis $|+\rangle$ and $|-\rangle$ becomes
-\]</div>
-</div>
-
-A = \begin{pmatrix}
-A_{11} &amp; A_{12} \
-A_{21} &amp; A_{22} \
-\end{pmatrix} = \begin{pmatrix}
-1 &amp; 0 \
-0 &amp; -1 \
-\end{pmatrix}\tag{9}
-$<span class="math notranslate nohighlight">\(
-Then under basis \)</span>|+\rangle<span class="math notranslate nohighlight">\( and \)</span>|-\rangle<span class="math notranslate nohighlight">\(, the matrix representation of \)</span>A$ is different.</p>
 </div>
 
         </article>
@@ -299,15 +274,7 @@ Then under basis \)</span>|+\rangle<span class="math notranslate nohighlight">\(
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="Exer4-2.html">
-              <div class="page-info">
-                <div class="context">
-                  <span>Next</span>
-                </div>
-                <div class="title">Exercise 4.2</div>
-              </div>
-              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
-            </a>
+          
           <a class="prev-page" href="index.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
@@ -315,7 +282,7 @@ Then under basis \)</span>|+\rangle<span class="math notranslate nohighlight">\(
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Home</div>
+                <div class="title">Chapter 4</div>
                 
               </div>
             </a>
@@ -343,11 +310,11 @@ Then under basis \)</span>|+\rangle<span class="math notranslate nohighlight">\(
       
     </aside>
   </div>
-</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/scripts/furo.js"></script>
+</div><script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/furo.js"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     </body>

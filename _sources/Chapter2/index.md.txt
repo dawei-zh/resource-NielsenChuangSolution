@@ -7,5 +7,7 @@ This section serves as a showcase for how things look in Furo, and provides a sy
 ```{toctree}
 :maxdepth: 1
 
+Exer2-1
 Exer2-2
+Exer2-5
 ```

@@ -2,10 +2,10 @@
 <html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Exercise 2.5" href="Exer2-5.html" /><link rel="prev" title="Exercise 2.1" href="Exer2-1.html" />
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Exercise 2.2" href="Exer2-2.html" /><link rel="prev" title="Chapter 2" href="index.html" />
 
     <!-- Generated with Sphinx 4.1.2 and Furo 2022.12.07 -->
-        <title>Exercise 2.2 - NielsenChuang Solution documentation</title>
+        <title>Exercise 2.1 - NielsenChuang Solution documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -156,8 +156,8 @@
   <p class="caption" role="heading"><span class="caption-text">Exercises</span></p>
 <ul class="current">
 <li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Chapter 2</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="Exer2-1.html">Exercise 2.1</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Exercise 2.2</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Exercise 2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Exer2-2.html">Exercise 2.2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer2-5.html">Exercise 2.5</a></li>
 </ul>
 </li>
@@ -198,97 +198,24 @@
           </label>
         </div>
         <article role="main">
-          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-2-2">
-<h1>Exercise 2.2<a class="headerlink" href="#exercise-2-2" title="Permalink to this headline">#</a></h1>
-<p>Suppose <span class="math notranslate nohighlight">\(V\)</span>​ is a vector space with basis vector <span class="math notranslate nohighlight">\(|v_1\rangle = |0\rangle\)</span>​ and <span class="math notranslate nohighlight">\(|v_2\rangle = |1\rangle \)</span>​, and <span class="math notranslate nohighlight">\(A: V\to V\)</span>​ is a linear operator. Since we have <span class="math notranslate nohighlight">\(A|0\rangle = |1\rangle\)</span>​ and <span class="math notranslate nohighlight">\(A|1\rangle = |0\rangle\)</span>​, according to eq. (2.12) in the book, we could find the matrix entries from</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-1">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-1">
-<span class="eqno">(1)<a class="headerlink" href="#equation-eqn-2-2-1" title="Permalink to this equation">#</a></span>\[\begin{split}
-\begin{align}
-A|v_1\rangle &amp;= A|0\rangle = A_{11}|0\rangle + A_{21}|1\rangle = |1\rangle \\
-A|v_2\rangle &amp;= A|1\rangle = A_{12}|0\rangle + A_{22}|1\rangle = |0\rangle 
-\end{align}
+          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-2-1">
+<h1>Exercise 2.1<a class="headerlink" href="#exercise-2-1" title="Permalink to this headline">#</a></h1>
+<p>To check whether the given three vectors <span class="math notranslate nohighlight">\((1,-1), (1,2)\)</span> and <span class="math notranslate nohighlight">\((2,1)\)</span>​ are linearly dependent, we could search for the solution of following equation</p>
+<div class="math-wrapper docutils container" id="equation-eqn-2-1-1">
+<div class="math notranslate nohighlight" id="equation-eqn-2-1-1">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eqn-2-1-1" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{pmatrix}
+1  &amp; 1  &amp;  2\\
+-1 &amp; 2  &amp; 1\\
+\end{pmatrix}\begin{pmatrix}
+a \\ b \\ c
+\end{pmatrix} = \begin{pmatrix} 0\\0 \end{pmatrix} \iff \begin{cases}
+a + b + 2c = 0 \\
+-a + 2b + c = 0 
+\end{cases}
 \end{split}\]</div>
 </div>
-<p>From eq. <a class="reference internal" href="#equation-eqn-2-2-1">(1)</a> we could conclude that</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-2">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-2">
-<span class="eqno">(2)<a class="headerlink" href="#equation-eqn-2-2-2" title="Permalink to this equation">#</a></span>\[\begin{split}
-A = \begin{pmatrix}
-A_{11} &amp; A_{12} \\
-A_{21} &amp; A_{22} \\
-\end{pmatrix} = \begin{pmatrix}
-0 &amp; 1 \\
-1 &amp; 0 \\ 
-\end{pmatrix} 
-\end{split}\]</div>
-</div>
-<p>Suppose we have a different basis of <span class="math notranslate nohighlight">\(V\)</span> with</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-3">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-3">
-<span class="eqno">(3)<a class="headerlink" href="#equation-eqn-2-2-3" title="Permalink to this equation">#</a></span>\[
-|+\rangle = \frac{|0\rangle + |1\rangle}{\sqrt{2}}, |-\rangle = \frac{|0\rangle - |1\rangle}{\sqrt{2}}
-\]</div>
-</div>
-<p>To check whether they are basis, we could do</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-4">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-4">
-<span class="eqno">(4)<a class="headerlink" href="#equation-eqn-2-2-4" title="Permalink to this equation">#</a></span>\[\begin{split}
-\begin{align}
-\langle +|+\rangle &amp;= \frac{\langle 0 | + \langle 1|}{\sqrt{2}}\cdot\frac{|0\rangle + |1\rangle}{\sqrt{2}} = \frac{\langle 0 |0\rangle + \langle 1|1\rangle}{2} = 1 \\
-\langle +|-\rangle &amp;= \frac{\langle 0 | + \langle 1|}{\sqrt{2}}\cdot\frac{|0\rangle - |1\rangle}{\sqrt{2}} = \frac{\langle 0 |0\rangle - \langle 1|1\rangle}{2} = 0 \\
-\langle -|+\rangle &amp;= \frac{\langle 0 | - \langle 1|}{\sqrt{2}}\cdot\frac{|0\rangle + |1\rangle}{\sqrt{2}} = \frac{\langle 0 |0\rangle - \langle 1|1\rangle}{2} = 0 \\
-\end{align}
-\end{split}\]</div>
-</div>
-<p>Then we could conclude from eq. <a class="reference internal" href="#equation-eqn-2-2-4">(4)</a> that the basis defined in eq. <a class="reference internal" href="#equation-eqn-2-2-3">(3)</a> is a valid orthonormal basis. Under the basis of eq. <a class="reference internal" href="#equation-eqn-2-2-3">(3)</a>, basis vectors <span class="math notranslate nohighlight">\(|0\rangle\)</span> and <span class="math notranslate nohighlight">\(|1\rangle\)</span> becomes</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-5">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-5">
-<span class="eqno">(5)<a class="headerlink" href="#equation-eqn-2-2-5" title="Permalink to this equation">#</a></span>\[
-|0\rangle = \frac{|+\rangle+|-\rangle}{\sqrt{2}}, |1\rangle = \frac{|+\rangle-|-\rangle}{\sqrt{2}}
-\]</div>
-</div>
-<p>From eq. <a class="reference internal" href="#equation-eqn-2-2-5">(5)</a>, eq. <a class="reference internal" href="#equation-eqn-2-2-3">(3)</a> becomes</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-6">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-6">
-<span class="eqno">(6)<a class="headerlink" href="#equation-eqn-2-2-6" title="Permalink to this equation">#</a></span>\[\begin{split}
-\begin{align}
-A|0\rangle = A\left(\frac{|+\rangle + |-\rangle }{\sqrt{2}}\right) = \frac{A|+\rangle + A|-\rangle }{\sqrt{2}} = |1\rangle = \frac{|+\rangle-|-\rangle}{\sqrt{2}}\\
-A|1\rangle = A\left(\frac{|+\rangle - |-\rangle }{\sqrt{2}}\right) = \frac{A|+\rangle - A|-\rangle }{\sqrt{2}} = |0\rangle = \frac{|+\rangle+|-\rangle}{\sqrt{2}} \\
-\end{align} 
-\end{split}\]</div>
-</div>
-<p>From eq. <a class="reference internal" href="#equation-eqn-2-2-6">(6)</a> we could find that</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-7">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-7">
-<span class="eqno">(7)<a class="headerlink" href="#equation-eqn-2-2-7" title="Permalink to this equation">#</a></span>\[
-A|+\rangle = |+\rangle, A|-\rangle = -|-\rangle 
-\]</div>
-</div>
-<p>Using similar method with eq. <a class="reference internal" href="#equation-eqn-2-2-1">(1)</a>, we obtain</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-8">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-8">
-<span class="eqno">(8)<a class="headerlink" href="#equation-eqn-2-2-8" title="Permalink to this equation">#</a></span>\[\begin{split}
-\begin{align}
-A|v_1\rangle = A|+\rangle = A_{11}|+\rangle + A_{21}|-\rangle = |+\rangle\\
-A|v_2\rangle = A|-\rangle = A_{12}|+\rangle + A_{22}|-\rangle = -|-\rangle\\
-\end{align}
-\end{split}\]</div>
-</div>
-<p>Thus, the matrix representation of <span class="math notranslate nohighlight">\(A\)</span> in basis <span class="math notranslate nohighlight">\(|+\rangle\)</span> and <span class="math notranslate nohighlight">\(|-\rangle\)</span> becomes</p>
-<div class="math-wrapper docutils container" id="equation-eqn-2-2-9">
-<div class="math notranslate nohighlight" id="equation-eqn-2-2-9">
-<span class="eqno">(9)<a class="headerlink" href="#equation-eqn-2-2-9" title="Permalink to this equation">#</a></span>\[\begin{split}
-A = \begin{pmatrix}
-A_{11} &amp; A_{12} \\
-A_{21} &amp; A_{22} \\
-\end{pmatrix} = \begin{pmatrix}
-1 &amp; 0 \\
-0 &amp; -1 \\
-\end{pmatrix}
-\end{split}\]</div>
-</div>
-<p>Then under basis <span class="math notranslate nohighlight">\(|+\rangle\)</span> and <span class="math notranslate nohighlight">\(|-\rangle\)</span>, the matrix representation of <span class="math notranslate nohighlight">\(A\)</span> is different.</p>
+<p>One of the valid solution is <span class="math notranslate nohighlight">\(a = 1, b = 1, c = -1\)</span>. Then we could conclude that the given three vectors <span class="math notranslate nohighlight">\((1,-1), (1,2)\)</span> and <span class="math notranslate nohighlight">\((2,1)\)</span> are linearly dependent.</p>
 </div>
 
         </article>
@@ -296,23 +223,23 @@ A_{21} &amp; A_{22} \\
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="Exer2-5.html">
+          <a class="next-page" href="Exer2-2.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Exercise 2.5</div>
+                <div class="title">Exercise 2.2</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="Exer2-1.html">
+          <a class="prev-page" href="index.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Exercise 2.1</div>
+                <div class="title">Chapter 2</div>
                 
               </div>
             </a>

@@ -4,7 +4,7 @@ Nowadays, quantum computation and quantum information techniques are rapidly dev
 
 Here is a brief introduction of content in each directory. 
 
-* The `derivation` directory contains derivation of some equation in the textbook
+<!--* The `derivation` directory contains derivation of some equation in the textbook -->
 * The `solution` directory includes my detailed solutions to exercises and problems in the textbook. 
 
 There are some other repositories at Github that includes solutions of exercises and problems in the textbook, but most of them are not comprehensive and not newly updated. Please refer to following links for more information

@@ -11,6 +11,6 @@ Welcome! Here I include my solutions to exercises and questions in the textbook 
 :caption: Exercises
 
 Chapter2/index
-Chapter4/index
+Chapter4/indexxœ
 Chapter10/index
 ```

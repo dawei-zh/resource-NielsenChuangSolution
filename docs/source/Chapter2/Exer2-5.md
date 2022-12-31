@@ -32,7 +32,7 @@ To check whether eq. {eq}`eqn:2.5.1` defines an inner product, we need to check 
   \sum_{k=1}^{N}\lambda_k\left((y_1, \dotsc, y_n),  (z_{k1}, z_{k2}, \dotsc, z_{kn})\right) = \sum_{k=1}^{N}\lambda_k \sum_{i=1}^{n}y_i^{*}z_i  =  \sum_{i=1}^n\sum_{k=1}^{N} y_i^{*}\lambda_kz_{k1}
   $$(eqn:2.5.5)
 
-  From eq. {eq}`eqn:2.5.4`and eq. {eq}`eqn:2.5.5`, we conclude that the given definition of $(\cdot, \cdot)$ is linear in the second argument. 
+  From eq. {eq}`eqn:2.5.4` and eq. {eq}`eqn:2.5.5`, we conclude that the given definition of $(\cdot, \cdot)$ is linear in the second argument. 
 
 * $(|v\rangle, |w\rangle) = (|w\rangle, |v\rangle)^*$. From eq. {eq}`eqn:2.5.1`​ we can compute 
 
@@ -46,7 +46,7 @@ To check whether eq. {eq}`eqn:2.5.1` defines an inner product, we need to check 
   ((z_1, \dotsc, z_n), (y_1, \dotsc, y_n))  = \left(\sum_{i}y_i^*z_i\right)^* =((y_1, \dotsc, y_n), (z_1, \dotsc, z_n))^* 
   $$(eqn:2.5.7)
 
-  Therefore, we could conclude that under the definition in eq. $\eqref{eq:operation}$, we have $(|v\rangle, |w\rangle) = (|w\rangle, |v\rangle)^*$
+  Therefore, we could conclude that under the definition in eq. {eq}`eqn:2.5.1`, we have $(|v\rangle, |w\rangle) = (|w\rangle, |v\rangle)^*$
 
 * $(|v\rangle, |v\rangle) \geq 0$, and $(|v\rangle, |v\rangle) = 0$ iff $|v\rangle = 0$. For $(|v\rangle, |v\rangle)$ we have 
 

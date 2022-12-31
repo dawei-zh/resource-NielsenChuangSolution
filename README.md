@@ -1,6 +1,6 @@
-# Nielsen and Chuang Textbook (Keep Updating)
+# Nielsen and Chuang Quantum Computation and Quantum Information
 
-Nowadays, quantum computation and quantum information techniques are rapidly developing, and the textbook <u>*Quantum Computation and Quantum Information* by Michael A. Nielsen and Isaac L. Chuang</u> is one of fundamental textbook for quantum computing beginner. I will include the solution of all exercises/problems of quantum computation, and hope these information help the quantum computation and quantum information community. 
+Nowadays, quantum computation and quantum information techniques are rapidly developing, and the textbook <u>*Quantum Computation and Quantum Information* by Michael A. Nielsen and Isaac L. Chuang</u> is one of fundamental textbook for quantum computing beginner (accessible in this repository). I will include the solution of all exercises/problems of quantum computation, and hope these information help the quantum computation and quantum information community. **I will keep this repository updated.**
 
 Here is a brief introduction of content in each directory. 
 

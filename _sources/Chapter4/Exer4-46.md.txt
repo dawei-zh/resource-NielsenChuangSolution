@@ -1,0 +1,3 @@
+# Exercise 4.46
+
+Consider a density matrix $\rho$ for $n-$qubits system, the dimension of $\rho$ should be $2^n\times 2^n$, so there is totally $2^n\times 2^n = 2^{2n} = 4^n$ complex elements in matrix $\rho$. Since we need two real numbers to describe a complex number, so there should be $2\times 4^n$. Note also that for density matrix, we have ${\rm Tr}\rho = 1$. With the constraint we could reduce the number of independent variable to $2\times 4^n - 2$ since ${\rm Tr}\rho = 1$ means that (1) the sum of real components of diagonal elements is $1$, and (2) the sum of imaginary components of diagonal elements is $0$. 

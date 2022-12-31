@@ -2,10 +2,10 @@
 <html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Exercise 4.8" href="Exer4-8.html" /><link rel="prev" title="Exercise 4.5" href="Exer4-5.html" />
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Chapter 10" href="../Chapter10/index.html" /><link rel="prev" title="Exercise 4.46" href="Exer4-46.html" />
 
     <!-- Generated with Sphinx 4.1.2 and Furo 2022.12.07 -->
-        <title>Exercise 4.7 - NielsenChuang Solution documentation</title>
+        <title>Exercise 4.49 - NielsenChuang Solution documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -133,7 +133,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -176,11 +176,11 @@
 <li class="toctree-l2"><a class="reference internal" href="Exer4-3.html">Exercise 4.3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-4.html">Exercise 4.4 (Reviewing)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-5.html">Exercise 4.5</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Exercise 4.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Exer4-7.html">Exercise 4.7</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-8.html">Exercise 4.8</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-41.html">Exercise 4.41</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-46.html">Exercise 4.46</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Exer4-49.html">Exercise 4.49</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Exercise 4.49</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Chapter10/index.html">Chapter 10</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -218,105 +218,128 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-4-7">
-<h1>Exercise 4.7<a class="headerlink" href="#exercise-4-7" title="Permalink to this headline">#</a></h1>
-<p>The Pauli matrices are given by</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-7-1">
-<div class="math notranslate nohighlight" id="equation-eqn-4-7-1">
-<span class="eqno">(1)<a class="headerlink" href="#equation-eqn-4-7-1" title="Permalink to this equation">#</a></span>\[\begin{split}
-X = \begin{pmatrix}
-0 &amp; 1\\ 1 &amp;0
-\end{pmatrix},Y = \begin{pmatrix}
-0 &amp; -i\\ i &amp;0
-\end{pmatrix}
-\end{split}\]</div>
-</div>
-<p>Then we could check</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-7-2">
-<div class="math notranslate nohighlight" id="equation-eqn-4-7-2">
-<span class="eqno">(2)<a class="headerlink" href="#equation-eqn-4-7-2" title="Permalink to this equation">#</a></span>\[\begin{split}
-XYX = \begin{pmatrix}
-0 &amp; 1\\ 1 &amp;0
-\end{pmatrix}\begin{pmatrix}
-0 &amp; -i\\ i &amp;0
-\end{pmatrix}\begin{pmatrix}
-0 &amp; 1\\ 1 &amp;0
-\end{pmatrix} = \begin{pmatrix}
-i &amp; 0\\ 0 &amp; -i
-\end{pmatrix}\begin{pmatrix}
-0 &amp; 1\\ 1 &amp;0
-\end{pmatrix} = \begin{pmatrix}
-0 &amp; i\\ -i &amp; 0
-\end{pmatrix} = -Y
-\end{split}\]</div>
-</div>
-<p>The rotation operator about the <span class="math notranslate nohighlight">\(\hat{y}\)</span> axis is given by</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-7-3">
-<div class="math notranslate nohighlight" id="equation-eqn-4-7-3">
-<span class="eqno">(3)<a class="headerlink" href="#equation-eqn-4-7-3" title="Permalink to this equation">#</a></span>\[\begin{split}
-R_y(\theta) = \cos\frac{\theta}{2}\ I - i\sin\frac{\theta}{2}Y = \begin{pmatrix}
-\cos\frac{\theta}{2} &amp; -\sin\frac{\theta}{2} \\ \sin\frac{\theta}{2} &amp; \cos\frac{\theta}{2}
-\end{pmatrix}
-\end{split}\]</div>
-</div>
-<p>Then we could check</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-7-4">
-<div class="math notranslate nohighlight" id="equation-eqn-4-7-4">
-<span class="eqno">(4)<a class="headerlink" href="#equation-eqn-4-7-4" title="Permalink to this equation">#</a></span>\[\begin{split}
+          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-4-49">
+<h1>Exercise 4.49<a class="headerlink" href="#exercise-4-49" title="Permalink to this headline">#</a></h1>
+<div class="section" id="proof-for-4-103">
+<h2>Proof for 4.103<a class="headerlink" href="#proof-for-4-103" title="Permalink to this headline">#</a></h2>
+<p>To study the relation between <span class="math notranslate nohighlight">\(e^{i(\hat{A}+\hat{B})\Delta t}\)</span> and <span class="math notranslate nohighlight">\( e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t}\)</span>, we firstly consider operation <span class="math notranslate nohighlight">\(e^{i(\hat{A}+\hat{B})\Delta t}\)</span> and expand it follows Taylor expansion as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-49-1">
+<div class="math notranslate nohighlight" id="equation-eqn-4-49-1">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eqn-4-49-1" title="Permalink to this equation">#</a></span>\[\begin{split}
 \begin{align}
-XR_y(\theta)X &amp;= \begin{pmatrix}
-0 &amp; 1\\ 1 &amp;0
-\end{pmatrix}\begin{pmatrix}
-\cos\frac{\theta}{2} &amp; -\sin\frac{\theta}{2} \\ \sin\frac{\theta}{2} &amp; \cos\frac{\theta}{2}
-\end{pmatrix}\begin{pmatrix}
-0 &amp; 1\\ 1 &amp;0
-\end{pmatrix} \\
-&amp;= \begin{pmatrix}
-\sin\frac{\theta}{2} &amp; \cos\frac{\theta}{2}\\ \cos\frac{\theta}{2} &amp; -\sin\frac{\theta}{2}
-\end{pmatrix}\begin{pmatrix}
-0 &amp; 1\\ 1 &amp;0
-\end{pmatrix} = \begin{pmatrix}
-\cos\frac{\theta}{2} &amp; \sin\frac{\theta}{2}\\ -\sin\frac{\theta}{2} &amp; \cos\frac{\theta}{2}
-\end{pmatrix} 
+e^{i(\hat{A}+\hat{B})\Delta t} &amp;= \sum_{n=0}^{\infty}\frac{(i\Delta t)^n(\hat{A}+\hat{B})^n}{n!} = 1 + i\hat{A}\Delta t+i\hat{B}\Delta t + \mathcal{O}(\Delta t^2)\\
 \end{align}
 \end{split}\]</div>
 </div>
-<p>Also, for <span class="math notranslate nohighlight">\(R_y(-\theta)\)</span> we have</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-7-5">
-<div class="math notranslate nohighlight" id="equation-eqn-4-7-5">
-<span class="eqno">(5)<a class="headerlink" href="#equation-eqn-4-7-5" title="Permalink to this equation">#</a></span>\[\begin{split}
-R_y(-\theta) = \begin{pmatrix}
-\cos\frac{-\theta}{2} &amp; -\sin\frac{-\theta}{2} \\ \sin\frac{-\theta}{2} &amp; \cos\frac{-\theta}{2}
-\end{pmatrix} = \begin{pmatrix}
-\cos\frac{\theta}{2} &amp; \sin\frac{\theta}{2} \\ -\sin\frac{\theta}{2} &amp; \cos\frac{\theta}{2}
-\end{pmatrix}
+<p>Meanwhile, we can also expand <span class="math notranslate nohighlight">\( e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t}\)</span> as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-49-2">
+<div class="math notranslate nohighlight" id="equation-eqn-4-49-2">
+<span class="eqno">(2)<a class="headerlink" href="#equation-eqn-4-49-2" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+ e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t} =&amp; 
+\left[\sum_{n=0}^{\infty}\frac{(i\hat{A}\Delta t)^n}{n!} \right]
+\left[\sum_{n=0}^{\infty}\frac{(i\hat{B}\Delta t)^n}{n!} \right]
+ \\
+=&amp; \left[1 + i\hat{A}\Delta t + \mathcal{O}(\Delta t^2)\right]
+\left[1 + i\hat{B}\Delta t + \mathcal{O}(\Delta t^2)\right]
+ \\
+=&amp; 1 + i\hat{A}\Delta t + i\hat{B}\Delta t+ \mathcal{O}(\Delta t^2)
+\end{align}
 \end{split}\]</div>
 </div>
-<p>According to eq. <a class="reference internal" href="#equation-eqn-4-7-4">(4)</a> and eq. <a class="reference internal" href="#equation-eqn-4-7-5">(5)</a>, we have</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-7-6">
-<div class="math notranslate nohighlight" id="equation-eqn-4-7-6">
-<span class="eqno">(6)<a class="headerlink" href="#equation-eqn-4-7-6" title="Permalink to this equation">#</a></span>\[
-XR_y(\theta)X = R_y(-\theta)
+<p>Compare eq. <a class="reference internal" href="#equation-eqn-4-49-1">(1)</a> and eq. <a class="reference internal" href="#equation-eqn-4-49-2">(2)</a>, we should have</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-49-3">
+<div class="math notranslate nohighlight" id="equation-eqn-4-49-3">
+<span class="eqno">(3)<a class="headerlink" href="#equation-eqn-4-49-3" title="Permalink to this equation">#</a></span>\[
+e^{i(\hat{A}+\hat{B})\Delta t} =  e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t} + \mathcal{O}(\Delta t^2)
 \]</div>
 </div>
-<hr class="docutils" />
-<p>A relative simple way to prove <span class="math notranslate nohighlight">\(XR_y(\theta)X = R_y(-\theta)\)</span> is to use the relation <span class="math notranslate nohighlight">\(XYX=-X\)</span>​ directly. That is</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-7-7">
-<div class="math notranslate nohighlight" id="equation-eqn-4-7-7">
-<span class="eqno">(7)<a class="headerlink" href="#equation-eqn-4-7-7" title="Permalink to this equation">#</a></span>\[\begin{split}
+</div>
+<div class="section" id="proof-for-4-104">
+<h2>Proof for 4.104<a class="headerlink" href="#proof-for-4-104" title="Permalink to this headline">#</a></h2>
+<p>To study the relation between <span class="math notranslate nohighlight">\(e^{i(\hat{A}+\hat{B})\Delta t}\)</span> and <span class="math notranslate nohighlight">\( e^{i\hat{A}\Delta t/2}e^{\hat{B}\Delta t}e^{i\hat{A}\Delta t/2}\)</span>, we firstly consider operation <span class="math notranslate nohighlight">\(e^{i(\hat{A}+\hat{B})\Delta t}\)</span> and expand it follows Taylor expansion as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-49-4">
+<div class="math notranslate nohighlight" id="equation-eqn-4-49-4">
+<span class="eqno">(4)<a class="headerlink" href="#equation-eqn-4-49-4" title="Permalink to this equation">#</a></span>\[\begin{split}
 \begin{align}
-XR_y(\theta)X &amp;= X\left(\cos\frac{\theta}{2} I-i\sin\frac{\theta}{2} Y\right)\\
-&amp;=  \cos\frac{\theta}{2} XIX - i\sin\frac{\theta}{2} XYX \\
-&amp;= \cos\frac{\theta}{2} I + i\sin\frac{\theta}{2}Y \\
-&amp;= \cos\frac{\theta}{2} I - i\sin\left(\frac{-\theta}{2}\right)Y = R_y(-\theta)
+e^{i(\hat{A}+\hat{B})\Delta t} &amp;= \sum_{n=0}^{\infty}\frac{(\hat{A}+\hat{B})^n(i\Delta t)^n}{n!} \\
+&amp;= 1 + i(\hat{A}+\hat{B})\Delta t + \frac{(\hat{A}+\hat{B})^2(i\Delta t)^2}{2} + \mathcal{O}[(\Delta t)^3]\\
+&amp;= 1 + i{\hat{A}\Delta t+i\hat{B}\Delta t} + \frac{i^2}{2}(\hat{A}\Delta t+\hat{B}\Delta t)(\hat{A}\Delta t+\hat{B}\Delta t) + \mathcal{O}[(\Delta t)^3]\\
+&amp;= 1 + i{\hat{A}\Delta t+i\hat{B}\Delta t}+ \frac{i^2}{2}(\hat{A}\hat{A} + \hat{A}\hat{B}+ \hat{B}\hat{A}+ \hat{B}\hat{B})(\Delta t)^2 + \mathcal{O}[(\Delta t)^3]\\
 \end{align}
 \end{split}\]</div>
+</div>
+<p>Meanwhile, we can also expand <span class="math notranslate nohighlight">\(e^{i\hat{A}\Delta t/2}e^{\hat{B}\Delta t}e^{i\hat{A}\Delta t/2}\)</span>​ as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-49-5">
+<div class="math notranslate nohighlight" id="equation-eqn-4-49-5">
+<span class="eqno">(5)<a class="headerlink" href="#equation-eqn-4-49-5" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+e^{(\hat{A}\Delta t)/2}e^{\hat{B}\Delta t}e^{(\hat{A}\Delta t)/2} =&amp; 
+\left[\sum_{n=0}\frac{(\hat{A}\Delta t)^n}{2^n n!} \right]
+\left[\sum_{n=0}\frac{(\hat{B}\Delta t)^n}{n!} \right]
+\left[\sum_{n=0}\frac{(\hat{A}\Delta t)^n}{2^n n!} \right] \\
+=&amp; \left[1 + \frac{\hat{A}\Delta t}{2} + \frac{(\hat{A}\Delta t)^2}{8} +\mathcal{O}(\Delta t^3)\right]
+\left[ 1 + \hat{B}\Delta t + \frac{(\hat{B}\Delta t)^2}{2} +\mathcal{O}(\Delta t^3)  \right]
+\left[ 1 + \frac{\hat{A}\Delta t}{2} + \frac{(\hat{A}\Delta t)^2}{8} +\mathcal{O}(\Delta t^3)  \right] \\
+=&amp; \left[1 + \hat{B}\Delta t+ \frac{(\hat{B}\Delta t)^2}{2} + \frac{\hat{A}\Delta t}{2} + \frac{\hat{A}\hat{B}\Delta t^2}{2} + \frac{(\hat{A}\Delta t)^2}{8} + \mathcal{O}(\Delta t^3)\right] \\
+&amp;\cdot \left[ 1 + \frac{\hat{A}\Delta t}{2} + \frac{(\hat{A}\Delta t)^2}{8} +\mathcal{O}(\Delta t^3)  \right] \\
+=&amp;  1 + \frac{\hat{A}\Delta t}{2} + \frac{(\hat{A}\Delta t)^2}{8} +  \hat{B}\Delta t + \frac{\hat{B}\hat{A}\Delta t^2}{2} +\frac{(\hat{B}\Delta t)^2}{2} \\
+&amp;+\frac{\hat{A}\Delta t}{2} + \frac{\hat{A}^2\Delta t^2}{4}+\frac{\hat{A}\hat{B}\Delta t^2}{2} + \frac{(\hat{A}\Delta t)^2}{8}+\mathcal{O}(\Delta t^3) \\
+=&amp;   1 + \left(\frac{\hat{A}}{2} +\hat{B}+ \frac{\hat{A}}{2}\right)\Delta t
++ \left(\frac{\hat{A}^2}{8} +\frac{\hat{B}\hat{A}}{2}+ \frac{\hat{B}^2}{2} + \frac{\hat{A}^2}{4} +\frac{\hat{A}\hat{B}}{2} +\frac{\hat{A}^2}{8}\right)\Delta t + \mathcal{O}(\Delta t^3)
+\\
+=&amp; 1 + {(\hat{A}+\hat{B})\Delta t} + \frac{1}{2}(\hat{A}\hat{A} + \hat{A}\hat{B}+ \hat{B}\hat{A}+ \hat{B}\hat{B})\Delta t+ \mathcal{O}(\Delta t^3) 
+\end{align}
+\end{split}\]</div>
+</div>
+<p>Note that <span class="math notranslate nohighlight">\(\Delta t\)</span> is a scalar and we can add them up together, and from eq. <a class="reference internal" href="#equation-eqn-4-49-4">(4)</a> and eq. <a class="reference internal" href="#equation-eqn-4-49-5">(5)</a> we could conclude that <span class="math notranslate nohighlight">\(e^{(\hat{A}+\hat{B})\Delta t} = e^{(\hat{A}\Delta t)/2}e^{\hat{B}\Delta t}e^{(\hat{A}\Delta t)/2} +\mathcal{O}(\Delta t^3)\)</span>. <strong>Note that we could also have</strong></p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-49-6">
+<div class="math notranslate nohighlight" id="equation-eqn-4-49-6">
+<span class="eqno">(6)<a class="headerlink" href="#equation-eqn-4-49-6" title="Permalink to this equation">#</a></span>\[
+e^{i(\hat{A}+\hat{B})\Delta t} = e^{i\hat{B}\Delta t/2}e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t/2}
+\]</div>
+</div>
+</div>
+<div class="section" id="proof-for-4-105">
+<h2>Proof for 4.105<a class="headerlink" href="#proof-for-4-105" title="Permalink to this headline">#</a></h2>
+<p>To study the relation between <span class="math notranslate nohighlight">\(e^{(\hat{A}+\hat{B})\Delta t}\)</span>​ and <span class="math notranslate nohighlight">\( e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-[\hat{A},\hat{B}]\Delta t^2/2}\)</span>​, we firstly consider operation <span class="math notranslate nohighlight">\(e^{(\hat{A}+\hat{B})\Delta t}\)</span>​ and expand it follows Taylor expansion as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-49-7">
+<div class="math notranslate nohighlight" id="equation-eqn-4-49-7">
+<span class="eqno">(7)<a class="headerlink" href="#equation-eqn-4-49-7" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+e^{(\hat{A}+\hat{B})\Delta t} &amp;= \sum_{n=0}^{\infty}\frac{(\hat{A}+\hat{B})^n(\Delta t)^n}{n!} \\
+&amp;= 1 + (\hat{A}+\hat{B})\Delta t + \frac{(\hat{A}+\hat{B})^2(\Delta t)^2}{2} + \mathcal{O}[(\Delta t)^3]\\
+&amp;= 1 + \hat{A}\Delta t+\hat{B}\Delta t + \frac{(\Delta t)^2}{2}(\hat{A}+\hat{B})(\hat{A}+\hat{B}) + \mathcal{O}[(\Delta t)^3]\\
+&amp;= 1 + \hat{A}\Delta t+\hat{B}\Delta t + \frac{(\Delta t)^2}{2}(\hat{A}\hat{A}+\hat{A}\hat{B}+\hat{B}\hat{A}+\hat{B}\hat{B}) + \mathcal{O}[(\Delta t)^3]\\
+\end{align}
+\end{split}\]</div>
+</div>
+<p>Meanwhile, we can also expand <span class="math notranslate nohighlight">\(e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-[\hat{A},\hat{B}]\Delta t^2/2}\)</span> as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-49-8">
+<div class="math notranslate nohighlight" id="equation-eqn-4-49-8">
+<span class="eqno">(8)<a class="headerlink" href="#equation-eqn-4-49-8" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-\frac{1}{2}[\hat{A},\hat{B}]\Delta t^2} =&amp; 
+\left[\sum_{n=0}^{\infty}\frac{(\hat{A}\Delta t)^n}{n!} \right]
+\left[\sum_{n=0}^{\infty}\frac{(\hat{B}\Delta t)^n}{n!} \right]
+\left[\sum_{n=0}^{\infty}\frac{(-1)^{n}[\hat{A}, \hat{B}]^{n}[(\Delta t)^2]^n}{2^n n!} \right] \\
+=&amp; \left[ 1 + \hat{A}\Delta t + \frac{\hat{A}^2(\Delta t)^2}{2} +\mathcal{O}[(\Delta t)^3] \right]\cdot\left[ 1 + \hat{B}\Delta t + \frac{\hat{B}^2(\Delta t)^2}{2} +\mathcal{O}[(\Delta t)^3] \right] \cdot\left[ 1 - \frac{[\hat{A}, \hat{B}](\Delta t)^2}{2} +\mathcal{O}[(\Delta t)^4] \right]\\
+=&amp;\left[ 1 + \hat{B}\Delta t + \frac{\hat{B}^2(\Delta t)^2}{2} + \hat{A}\Delta t + \hat{A}\hat{B}(\Delta t)^2+ \frac{\hat{A}^2(\Delta t)^2}{2}+\mathcal{O}[(\Delta t)^3] \right] \cdot\left[ 1 - \frac{[\hat{A}, \hat{B}](\Delta t)^2}{2} +\mathcal{O}[(\Delta t)^4] \right] \\
+=&amp; 1 - \frac{[\hat{A}, \hat{B}](\Delta t)^2}{2} + \hat{B}\Delta t + \frac{\hat{B}^2(\Delta t)^2}{2} \\
+&amp;+ \hat{A}\Delta t + \hat{A}\hat{B}(\Delta t)^2+\frac{\hat{A}^2(\Delta t)^2}{2}+\mathcal{O}[(\Delta t)^3] \\
+=&amp; 1  +  \hat{A}\Delta t + \hat{B}\Delta t \\
+&amp;+ \frac{(\Delta t)^2}{2} \left(\hat{A}^2 + \hat{B}^2 + 2\hat{A}\hat{B} - \hat{A}\hat{B} + \hat{B}\hat{A}\right) +\mathcal{O}[(\Delta t)^3] \\
+=&amp; 1  +  \hat{A}\Delta t + \hat{B}\Delta t + \frac{(\Delta t)^2}{2} \left(\hat{A}\hat{A} + \hat{B}\hat{B}  + \hat{A}\hat{B} + \hat{B}\hat{A}\right) +\mathcal{O}[(\Delta t)^3] \\
+\end{align}
+\end{split}\]</div>
+</div>
+<p>Note that <span class="math notranslate nohighlight">\(\Delta t\)</span> is a scalar and we can add them up together, and from eq. <a class="reference internal" href="#equation-eqn-4-49-7">(7)</a> and eq. <a class="reference internal" href="#equation-eqn-4-49-8">(8)</a> we could conclude that <span class="math notranslate nohighlight">\( e^{(\hat{A}+\hat{B})\Delta t}=e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-\frac{1}{2}[\hat{A},\hat{B}]\Delta t^2} +\mathcal{O}[(\Delta t)^3]\)</span>.</p>
 </div>
 </div>
 
@@ -325,23 +348,23 @@ XR_y(\theta)X &amp;= X\left(\cos\frac{\theta}{2} I-i\sin\frac{\theta}{2} Y\right
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="Exer4-8.html">
+          <a class="next-page" href="../Chapter10/index.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Exercise 4.8</div>
+                <div class="title">Chapter 10</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="Exer4-5.html">
+          <a class="prev-page" href="Exer4-46.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Exercise 4.5</div>
+                <div class="title">Exercise 4.46</div>
                 
               </div>
             </a>
@@ -363,8 +386,29 @@ XR_y(\theta)X &amp;= X\left(\cos\frac{\theta}{2} I-i\sin\frac{\theta}{2} Y\right
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Exercise 4.49</a><ul>
+<li><a class="reference internal" href="#proof-for-4-103">Proof for 4.103</a></li>
+<li><a class="reference internal" href="#proof-for-4-104">Proof for 4.104</a></li>
+<li><a class="reference internal" href="#proof-for-4-105">Proof for 4.105</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

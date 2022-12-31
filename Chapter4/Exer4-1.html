@@ -2,10 +2,10 @@
 <html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Exercise 4.1" href="Exer4-1.html" /><link rel="prev" title="Exercise 2.25" href="../Chapter2/Exer2-25.html" />
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Exercise 4.2" href="Exer4-2.html" /><link rel="prev" title="Chapter 4" href="index.html" />
 
     <!-- Generated with Sphinx 4.1.2 and Furo 2022.12.07 -->
-        <title>Chapter 4 - NielsenChuang Solution documentation</title>
+        <title>Exercise 4.1 - NielsenChuang Solution documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -170,8 +170,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../Chapter2/Exer2-25.html">Exercise 2.25</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Chapter 4</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="Exer4-1.html">Exercise 4.1</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Chapter 4</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Exercise 4.1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-2.html">Exercise 4.2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-3.html">Exercise 4.3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-4.html">Exercise 4.4 (Reviewing)</a></li>
@@ -213,20 +213,91 @@
           </label>
         </div>
         <article role="main">
-          <div class="tex2jax_ignore mathjax_ignore section" id="chapter-4">
-<h1>Chapter 4<a class="headerlink" href="#chapter-4" title="Permalink to this headline">#</a></h1>
-<p>Here are a list of all Chapter 2 exercises.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Exer4-1.html">Exercise 4.1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Exer4-2.html">Exercise 4.2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Exer4-3.html">Exercise 4.3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Exer4-4.html">Exercise 4.4 (Reviewing)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Exer4-5.html">Exercise 4.5</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Exer4-7.html">Exercise 4.7</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Exer4-8.html">Exercise 4.8</a></li>
-</ul>
+          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-4-1">
+<h1>Exercise 4.1<a class="headerlink" href="#exercise-4-1" title="Permalink to this headline">#</a></h1>
+<p>For a arbitrary single qubit state <span class="math notranslate nohighlight">\(|\psi\rangle\)</span>, its Bloch sphere representation <span class="math notranslate nohighlight">\((\theta, \varphi)\)</span> can be obtained as follow,</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-1-1">
+<div class="math notranslate nohighlight" id="equation-eqn-4-1-1">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eqn-4-1-1" title="Permalink to this equation">#</a></span>\[
+|\psi\rangle = \cos\frac{\theta}{2}|0\rangle + \sin\frac{\theta}{2}e^{i\varphi}|1\rangle
+\]</div>
 </div>
+<p>Here are eigenvalues and eigenstates of Pauli matrices.</p>
+<ul>
+<li><p>For <span class="math notranslate nohighlight">\(X\)</span>,  the eigenvalues <span class="math notranslate nohighlight">\(\lambda_1=1\)</span> and <span class="math notranslate nohighlight">\(\lambda_2=-1\)</span>, and  their corresponding eigenvectors are</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-1-2">
+<div class="math notranslate nohighlight" id="equation-eqn-4-1-2">
+<span class="eqno">(2)<a class="headerlink" href="#equation-eqn-4-1-2" title="Permalink to this equation">#</a></span>\[\begin{split}
+  |v_1\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix}
+  1 \\ 1
+  \end{pmatrix}, |v_2\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix}
+  1\\ -1
+  \end{pmatrix}
+  \end{split}\]</div>
+</div>
+<p>We can obtain the Bloch coordinate of <span class="math notranslate nohighlight">\(|v_1\rangle\)</span> and <span class="math notranslate nohighlight">\(|v_2\rangle\)</span> via</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-1-3">
+<div class="math notranslate nohighlight" id="equation-eqn-4-1-3">
+<span class="eqno">(3)<a class="headerlink" href="#equation-eqn-4-1-3" title="Permalink to this equation">#</a></span>\[\begin{split}
+  \begin{align}
+  |v_1\rangle &amp;= \frac{1}{\sqrt{2}} |0\rangle + \frac{1}{\sqrt{2}}|1\rangle \\
+  &amp;= \cos\frac{\pi/2}{2}|0\rangle + \sin\frac{\pi/2}{2}e^{i\cdot0}|1\rangle \\
+  |v_2\rangle &amp;= \frac{1}{\sqrt{2}} |0\rangle - \frac{1}{\sqrt{2}}|1\rangle \\
+  &amp;= \cos\frac{\pi/2}{2}|0\rangle + \sin\frac{\pi/2}{2}e^{i\pi}|1\rangle \\
+  \end{align}
+  \end{split}\]</div>
+</div>
+<p>So the Bloch coordinate is <span class="math notranslate nohighlight">\((\pi/2, 0)\)</span> for <span class="math notranslate nohighlight">\(|v_1\rangle\)</span> and <span class="math notranslate nohighlight">\((\pi/2, \pi)\)</span> for <span class="math notranslate nohighlight">\(|v_2\rangle\)</span></p>
+</li>
+<li><p>For <span class="math notranslate nohighlight">\(Y\)</span>​, the eigenvalues <span class="math notranslate nohighlight">\(\lambda_1=1\)</span>​ and <span class="math notranslate nohighlight">\(\lambda_2=-1\)</span>​, and their corresponding eigenvectors are</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-1-4">
+<div class="math notranslate nohighlight" id="equation-eqn-4-1-4">
+<span class="eqno">(4)<a class="headerlink" href="#equation-eqn-4-1-4" title="Permalink to this equation">#</a></span>\[\begin{split}
+  |v_1\rangle =  \frac{1}{\sqrt{2}}\begin{pmatrix}
+  1 \\ i
+  \end{pmatrix}, |v_2\rangle =  \frac{1}{\sqrt{2}}\begin{pmatrix}
+  1\\ -i
+  \end{pmatrix}
+  \end{split}\]</div>
+</div>
+<p>We can obtain the Bloch coordinate of <span class="math notranslate nohighlight">\(|v_1\rangle\)</span> and <span class="math notranslate nohighlight">\(|v_2\rangle\)</span> via</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-1-5">
+<div class="math notranslate nohighlight" id="equation-eqn-4-1-5">
+<span class="eqno">(5)<a class="headerlink" href="#equation-eqn-4-1-5" title="Permalink to this equation">#</a></span>\[\begin{split}
+  \begin{align}
+  |v_1\rangle &amp;= \frac{1}{\sqrt{2}} |0\rangle + \frac{1}{\sqrt{2}}i|1\rangle \\
+  &amp;= \cos\frac{\pi/2}{2}|0\rangle + \sin\frac{\pi/2}{2}e^{i\cdot \pi/2}|1\rangle \\
+  |v_2\rangle &amp;= \frac{1}{\sqrt{2}} |0\rangle - \frac{1}{\sqrt{2}}i|1\rangle \\
+  &amp;= \cos\frac{\pi/2}{2}|0\rangle + \sin\frac{\pi/2}{2}e^{-i\pi/2}|1\rangle \\
+  \end{align}
+  \end{split}\]</div>
+</div>
+<p>So the Bloch coordinate is <span class="math notranslate nohighlight">\((\pi/2, \pi/2)\)</span> for <span class="math notranslate nohighlight">\(|v_1\rangle\)</span> and <span class="math notranslate nohighlight">\((\pi/2, -\pi/2)\)</span> for <span class="math notranslate nohighlight">\(|v_2\rangle\)</span></p>
+</li>
+<li><p>For <span class="math notranslate nohighlight">\(Z\)</span>​, the eigenvalues <span class="math notranslate nohighlight">\(\lambda_1=1\)</span>​ and <span class="math notranslate nohighlight">\(\lambda_2=-1\)</span>​, and their corresponding eigenvectors are</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-1-6">
+<div class="math notranslate nohighlight" id="equation-eqn-4-1-6">
+<span class="eqno">(6)<a class="headerlink" href="#equation-eqn-4-1-6" title="Permalink to this equation">#</a></span>\[\begin{split}
+  |v_1\rangle = \begin{pmatrix}
+  1 \\ 0
+  \end{pmatrix}, |v_2\rangle = \begin{pmatrix}
+  0\\ 1
+  \end{pmatrix}
+  \end{split}\]</div>
+</div>
+<p>We can obtain the Bloch coordinate of <span class="math notranslate nohighlight">\(|v_1\rangle\)</span> and <span class="math notranslate nohighlight">\(|v_2\rangle\)</span> via</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-1-7">
+<div class="math notranslate nohighlight" id="equation-eqn-4-1-7">
+<span class="eqno">(7)<a class="headerlink" href="#equation-eqn-4-1-7" title="Permalink to this equation">#</a></span>\[\begin{split}
+  \begin{align}
+  |v_1\rangle &amp;= |0\rangle = \cos\frac{0}{2}|0\rangle + \sin\frac{0}{2}e^{i\cdot 0}|1\rangle \\
+  |v_2\rangle &amp;= |1\rangle = \cos\frac{\pi}{2}|0\rangle + \sin\frac{\pi}{2}e^{-i\cdot 0}|1\rangle \\
+  \end{align}
+  \end{split}\]</div>
+</div>
+<p>So the Bloch coordinate is <span class="math notranslate nohighlight">\((0, 0)\)</span> for <span class="math notranslate nohighlight">\(|v_1\rangle\)</span> and <span class="math notranslate nohighlight">\((\pi, 0)\)</span> for <span class="math notranslate nohighlight">\(|v_2\rangle\)</span>.</p>
+</li>
+</ul>
 </div>
 
         </article>
@@ -234,23 +305,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="Exer4-1.html">
+          <a class="next-page" href="Exer4-2.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Exercise 4.1</div>
+                <div class="title">Exercise 4.2</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../Chapter2/Exer2-25.html">
+          <a class="prev-page" href="index.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Exercise 2.25</div>
+                <div class="title">Chapter 4</div>
                 
               </div>
             </a>
@@ -283,5 +354,7 @@
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/scripts/furo.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     </body>
 </html>

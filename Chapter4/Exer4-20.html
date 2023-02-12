@@ -2,10 +2,10 @@
 <html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Chapter 10" href="../Chapter10/index.html" /><link rel="prev" title="Exercise 4.46" href="Exer4-46.html" />
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Exercise 4.32" href="Exer4-32.html" /><link rel="prev" title="Exercise 4.18" href="Exer4-18.html" />
 
     <!-- Generated with Sphinx 4.1.2 and Furo 2022.12.07 -->
-        <title>Exercise 4.49 - NielsenChuang Solution</title>
+        <title>Exercise 4.20 - NielsenChuang Solution</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -133,7 +133,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -190,11 +190,11 @@
 <li class="toctree-l2"><a class="reference internal" href="Exer4-13.html">Exercise 4.13</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-17.html">Exercise 4.17</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-18.html">Exercise 4.18</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Exer4-20.html">Exercise 4.20</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Exercise 4.20</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-32.html">Exercise 4.32</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-41.html">Exercise 4.41</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exer4-46.html">Exercise 4.46</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Exercise 4.49</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Exer4-49.html">Exercise 4.49</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Chapter10/index.html">Chapter 10</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -232,128 +232,125 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-4-49">
-<h1>Exercise 4.49<a class="headerlink" href="#exercise-4-49" title="Permalink to this headline">#</a></h1>
-<div class="section" id="proof-for-4-103">
-<h2>Proof for 4.103<a class="headerlink" href="#proof-for-4-103" title="Permalink to this headline">#</a></h2>
-<p>To study the relation between <span class="math notranslate nohighlight">\(e^{i(\hat{A}+\hat{B})\Delta t}\)</span> and <span class="math notranslate nohighlight">\( e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t}\)</span>, we firstly consider operation <span class="math notranslate nohighlight">\(e^{i(\hat{A}+\hat{B})\Delta t}\)</span> and expand it follows Taylor expansion as</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-49-1">
-<div class="math notranslate nohighlight" id="equation-eqn-4-49-1">
-<span class="eqno">(1)<a class="headerlink" href="#equation-eqn-4-49-1" title="Permalink to this equation">#</a></span>\[\begin{split}
-\begin{align}
-e^{i(\hat{A}+\hat{B})\Delta t} &amp;= \sum_{n=0}^{\infty}\frac{(i\Delta t)^n(\hat{A}+\hat{B})^n}{n!} = 1 + i\hat{A}\Delta t+i\hat{B}\Delta t + \mathcal{O}(\Delta t^2)\\
-\end{align}
-\end{split}\]</div>
-</div>
-<p>Meanwhile, we can also expand <span class="math notranslate nohighlight">\( e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t}\)</span> as</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-49-2">
-<div class="math notranslate nohighlight" id="equation-eqn-4-49-2">
-<span class="eqno">(2)<a class="headerlink" href="#equation-eqn-4-49-2" title="Permalink to this equation">#</a></span>\[\begin{split}
-\begin{align}
- e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t} =&amp; 
-\left[\sum_{n=0}^{\infty}\frac{(i\hat{A}\Delta t)^n}{n!} \right]
-\left[\sum_{n=0}^{\infty}\frac{(i\hat{B}\Delta t)^n}{n!} \right]
- \\
-=&amp; \left[1 + i\hat{A}\Delta t + \mathcal{O}(\Delta t^2)\right]
-\left[1 + i\hat{B}\Delta t + \mathcal{O}(\Delta t^2)\right]
- \\
-=&amp; 1 + i\hat{A}\Delta t + i\hat{B}\Delta t+ \mathcal{O}(\Delta t^2)
-\end{align}
-\end{split}\]</div>
-</div>
-<p>Compare eq. <a class="reference internal" href="#equation-eqn-4-49-1">(1)</a> and eq. <a class="reference internal" href="#equation-eqn-4-49-2">(2)</a>, we should have</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-49-3">
-<div class="math notranslate nohighlight" id="equation-eqn-4-49-3">
-<span class="eqno">(3)<a class="headerlink" href="#equation-eqn-4-49-3" title="Permalink to this equation">#</a></span>\[
-e^{i(\hat{A}+\hat{B})\Delta t} =  e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t} + \mathcal{O}(\Delta t^2)
+          <div class="tex2jax_ignore mathjax_ignore section" id="exercise-4-20">
+<h1>Exercise 4.20<a class="headerlink" href="#exercise-4-20" title="Permalink to this headline">#</a></h1>
+<p>Consider a <span class="math notranslate nohighlight">\(\rm CNOT\)</span> gate with first qubit as control and second qubit as target, we could write the <span class="math notranslate nohighlight">\(\rm CNOT\)</span> gate in the following form,</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-1">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-1">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eqn-4-20-1" title="Permalink to this equation">#</a></span>\[
+{\rm CNOT} = |0\rangle\langle 0|\otimes I + |1\rangle\langle 1| \otimes X
 \]</div>
 </div>
-</div>
-<div class="section" id="proof-for-4-104">
-<h2>Proof for 4.104<a class="headerlink" href="#proof-for-4-104" title="Permalink to this headline">#</a></h2>
-<p>To study the relation between <span class="math notranslate nohighlight">\(e^{i(\hat{A}+\hat{B})\Delta t}\)</span> and <span class="math notranslate nohighlight">\( e^{i\hat{A}\Delta t/2}e^{\hat{B}\Delta t}e^{i\hat{A}\Delta t/2}\)</span>, we firstly consider operation <span class="math notranslate nohighlight">\(e^{i(\hat{A}+\hat{B})\Delta t}\)</span> and expand it follows Taylor expansion as</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-49-4">
-<div class="math notranslate nohighlight" id="equation-eqn-4-49-4">
-<span class="eqno">(4)<a class="headerlink" href="#equation-eqn-4-49-4" title="Permalink to this equation">#</a></span>\[\begin{split}
-\begin{align}
-e^{i(\hat{A}+\hat{B})\Delta t} &amp;= \sum_{n=0}^{\infty}\frac{(\hat{A}+\hat{B})^n(i\Delta t)^n}{n!} \\
-&amp;= 1 + i(\hat{A}+\hat{B})\Delta t + \frac{(\hat{A}+\hat{B})^2(i\Delta t)^2}{2} + \mathcal{O}[(\Delta t)^3]\\
-&amp;= 1 + i{\hat{A}\Delta t+i\hat{B}\Delta t} + \frac{i^2}{2}(\hat{A}\Delta t+\hat{B}\Delta t)(\hat{A}\Delta t+\hat{B}\Delta t) + \mathcal{O}[(\Delta t)^3]\\
-&amp;= 1 + i{\hat{A}\Delta t+i\hat{B}\Delta t}+ \frac{i^2}{2}(\hat{A}\hat{A} + \hat{A}\hat{B}+ \hat{B}\hat{A}+ \hat{B}\hat{B})(\Delta t)^2 + \mathcal{O}[(\Delta t)^3]\\
-\end{align}
-\end{split}\]</div>
-</div>
-<p>Meanwhile, we can also expand <span class="math notranslate nohighlight">\(e^{i\hat{A}\Delta t/2}e^{\hat{B}\Delta t}e^{i\hat{A}\Delta t/2}\)</span>​ as</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-49-5">
-<div class="math notranslate nohighlight" id="equation-eqn-4-49-5">
-<span class="eqno">(5)<a class="headerlink" href="#equation-eqn-4-49-5" title="Permalink to this equation">#</a></span>\[\begin{split}
-\begin{align}
-e^{(\hat{A}\Delta t)/2}e^{\hat{B}\Delta t}e^{(\hat{A}\Delta t)/2} =&amp; 
-\left[\sum_{n=0}\frac{(\hat{A}\Delta t)^n}{2^n n!} \right]
-\left[\sum_{n=0}\frac{(\hat{B}\Delta t)^n}{n!} \right]
-\left[\sum_{n=0}\frac{(\hat{A}\Delta t)^n}{2^n n!} \right] \\
-=&amp; \left[1 + \frac{\hat{A}\Delta t}{2} + \frac{(\hat{A}\Delta t)^2}{8} +\mathcal{O}(\Delta t^3)\right]
-\left[ 1 + \hat{B}\Delta t + \frac{(\hat{B}\Delta t)^2}{2} +\mathcal{O}(\Delta t^3)  \right]
-\left[ 1 + \frac{\hat{A}\Delta t}{2} + \frac{(\hat{A}\Delta t)^2}{8} +\mathcal{O}(\Delta t^3)  \right] \\
-=&amp; \left[1 + \hat{B}\Delta t+ \frac{(\hat{B}\Delta t)^2}{2} + \frac{\hat{A}\Delta t}{2} + \frac{\hat{A}\hat{B}\Delta t^2}{2} + \frac{(\hat{A}\Delta t)^2}{8} + \mathcal{O}(\Delta t^3)\right] \\
-&amp;\cdot \left[ 1 + \frac{\hat{A}\Delta t}{2} + \frac{(\hat{A}\Delta t)^2}{8} +\mathcal{O}(\Delta t^3)  \right] \\
-=&amp;  1 + \frac{\hat{A}\Delta t}{2} + \frac{(\hat{A}\Delta t)^2}{8} +  \hat{B}\Delta t + \frac{\hat{B}\hat{A}\Delta t^2}{2} +\frac{(\hat{B}\Delta t)^2}{2} \\
-&amp;+\frac{\hat{A}\Delta t}{2} + \frac{\hat{A}^2\Delta t^2}{4}+\frac{\hat{A}\hat{B}\Delta t^2}{2} + \frac{(\hat{A}\Delta t)^2}{8}+\mathcal{O}(\Delta t^3) \\
-=&amp;   1 + \left(\frac{\hat{A}}{2} +\hat{B}+ \frac{\hat{A}}{2}\right)\Delta t
-+ \left(\frac{\hat{A}^2}{8} +\frac{\hat{B}\hat{A}}{2}+ \frac{\hat{B}^2}{2} + \frac{\hat{A}^2}{4} +\frac{\hat{A}\hat{B}}{2} +\frac{\hat{A}^2}{8}\right)\Delta t + \mathcal{O}(\Delta t^3)
-\\
-=&amp; 1 + {(\hat{A}+\hat{B})\Delta t} + \frac{1}{2}(\hat{A}\hat{A} + \hat{A}\hat{B}+ \hat{B}\hat{A}+ \hat{B}\hat{B})\Delta t+ \mathcal{O}(\Delta t^3) 
-\end{align}
-\end{split}\]</div>
-</div>
-<p>Note that <span class="math notranslate nohighlight">\(\Delta t\)</span> is a scalar and we can add them up together, and from eq. <a class="reference internal" href="#equation-eqn-4-49-4">(4)</a> and eq. <a class="reference internal" href="#equation-eqn-4-49-5">(5)</a> we could conclude that <span class="math notranslate nohighlight">\(e^{(\hat{A}+\hat{B})\Delta t} = e^{(\hat{A}\Delta t)/2}e^{\hat{B}\Delta t}e^{(\hat{A}\Delta t)/2} +\mathcal{O}(\Delta t^3)\)</span>. <strong>Note that we could also have</strong></p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-49-6">
-<div class="math notranslate nohighlight" id="equation-eqn-4-49-6">
-<span class="eqno">(6)<a class="headerlink" href="#equation-eqn-4-49-6" title="Permalink to this equation">#</a></span>\[
-e^{i(\hat{A}+\hat{B})\Delta t} = e^{i\hat{B}\Delta t/2}e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t/2}
+<p>Similarly, we should have <span class="math notranslate nohighlight">\({\rm CNOT} = I\otimes |0\rangle\langle 0| +X\otimes  |1\rangle\langle 1| \)</span> for <span class="math notranslate nohighlight">\(\rm CNOT\)</span> gate with second qubit as control and first qubit as target. For Hadamard gate, we have the following properties,</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-2">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-2">
+<span class="eqno">(2)<a class="headerlink" href="#equation-eqn-4-20-2" title="Permalink to this equation">#</a></span>\[
+H|0\rangle = \frac{|0\rangle+|1\rangle}{\sqrt{2}} = |+\rangle, H|1\rangle = \frac{|0\rangle-|1\rangle}{\sqrt{2}} = |-\rangle, HXH = Z
 \]</div>
 </div>
-</div>
-<div class="section" id="proof-for-4-105">
-<h2>Proof for 4.105<a class="headerlink" href="#proof-for-4-105" title="Permalink to this headline">#</a></h2>
-<p>To study the relation between <span class="math notranslate nohighlight">\(e^{(\hat{A}+\hat{B})\Delta t}\)</span>​ and <span class="math notranslate nohighlight">\( e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-[\hat{A},\hat{B}]\Delta t^2/2}\)</span>​, we firstly consider operation <span class="math notranslate nohighlight">\(e^{(\hat{A}+\hat{B})\Delta t}\)</span>​ and expand it follows Taylor expansion as</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-49-7">
-<div class="math notranslate nohighlight" id="equation-eqn-4-49-7">
-<span class="eqno">(7)<a class="headerlink" href="#equation-eqn-4-49-7" title="Permalink to this equation">#</a></span>\[\begin{split}
+<p>With eq. <a class="reference internal" href="#equation-eqn-4-20-1">(1)</a> and eq. <a class="reference internal" href="#equation-eqn-4-20-2">(2)</a>, we could write the circuit shown in the question as unitary operator <span class="math notranslate nohighlight">\(U\)</span>, and</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-3">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-3">
+<span class="eqno">(3)<a class="headerlink" href="#equation-eqn-4-20-3" title="Permalink to this equation">#</a></span>\[\begin{split}
 \begin{align}
-e^{(\hat{A}+\hat{B})\Delta t} &amp;= \sum_{n=0}^{\infty}\frac{(\hat{A}+\hat{B})^n(\Delta t)^n}{n!} \\
-&amp;= 1 + (\hat{A}+\hat{B})\Delta t + \frac{(\hat{A}+\hat{B})^2(\Delta t)^2}{2} + \mathcal{O}[(\Delta t)^3]\\
-&amp;= 1 + \hat{A}\Delta t+\hat{B}\Delta t + \frac{(\Delta t)^2}{2}(\hat{A}+\hat{B})(\hat{A}+\hat{B}) + \mathcal{O}[(\Delta t)^3]\\
-&amp;= 1 + \hat{A}\Delta t+\hat{B}\Delta t + \frac{(\Delta t)^2}{2}(\hat{A}\hat{A}+\hat{A}\hat{B}+\hat{B}\hat{A}+\hat{B}\hat{B}) + \mathcal{O}[(\Delta t)^3]\\
+U &amp;= (H\otimes H)(|0\rangle\langle 0|\otimes I + |1\rangle\langle 1| \otimes X)(H\otimes H) \\
+&amp;= H|0\rangle\langle 0|H\otimes I + H|1\rangle\langle 1|H \otimes HXH \\
+&amp;= |+\rangle\langle +|\otimes I + |-\rangle\langle -| \otimes Z 
 \end{align}
 \end{split}\]</div>
 </div>
-<p>Meanwhile, we can also expand <span class="math notranslate nohighlight">\(e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-[\hat{A},\hat{B}]\Delta t^2/2}\)</span> as</p>
-<div class="math-wrapper docutils container" id="equation-eqn-4-49-8">
-<div class="math notranslate nohighlight" id="equation-eqn-4-49-8">
-<span class="eqno">(8)<a class="headerlink" href="#equation-eqn-4-49-8" title="Permalink to this equation">#</a></span>\[\begin{split}
+<p>Note that for identity, <span class="math notranslate nohighlight">\(X\)</span> gate and <span class="math notranslate nohighlight">\(Z\)</span> gate, we could write them in the spectral decomposition form,</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-4">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-4">
+<span class="eqno">(4)<a class="headerlink" href="#equation-eqn-4-20-4" title="Permalink to this equation">#</a></span>\[\begin{split}
 \begin{align}
-e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-\frac{1}{2}[\hat{A},\hat{B}]\Delta t^2} =&amp; 
-\left[\sum_{n=0}^{\infty}\frac{(\hat{A}\Delta t)^n}{n!} \right]
-\left[\sum_{n=0}^{\infty}\frac{(\hat{B}\Delta t)^n}{n!} \right]
-\left[\sum_{n=0}^{\infty}\frac{(-1)^{n}[\hat{A}, \hat{B}]^{n}[(\Delta t)^2]^n}{2^n n!} \right] \\
-=&amp; \left[ 1 + \hat{A}\Delta t + \frac{\hat{A}^2(\Delta t)^2}{2} +\mathcal{O}[(\Delta t)^3] \right]\cdot\left[ 1 + \hat{B}\Delta t + \frac{\hat{B}^2(\Delta t)^2}{2} +\mathcal{O}[(\Delta t)^3] \right] \cdot\left[ 1 - \frac{[\hat{A}, \hat{B}](\Delta t)^2}{2} +\mathcal{O}[(\Delta t)^4] \right]\\
-=&amp;\left[ 1 + \hat{B}\Delta t + \frac{\hat{B}^2(\Delta t)^2}{2} + \hat{A}\Delta t + \hat{A}\hat{B}(\Delta t)^2+ \frac{\hat{A}^2(\Delta t)^2}{2}+\mathcal{O}[(\Delta t)^3] \right] \cdot\left[ 1 - \frac{[\hat{A}, \hat{B}](\Delta t)^2}{2} +\mathcal{O}[(\Delta t)^4] \right] \\
-=&amp; 1 - \frac{[\hat{A}, \hat{B}](\Delta t)^2}{2} + \hat{B}\Delta t + \frac{\hat{B}^2(\Delta t)^2}{2} \\
-&amp;+ \hat{A}\Delta t + \hat{A}\hat{B}(\Delta t)^2+\frac{\hat{A}^2(\Delta t)^2}{2}+\mathcal{O}[(\Delta t)^3] \\
-=&amp; 1  +  \hat{A}\Delta t + \hat{B}\Delta t \\
-&amp;+ \frac{(\Delta t)^2}{2} \left(\hat{A}^2 + \hat{B}^2 + 2\hat{A}\hat{B} - \hat{A}\hat{B} + \hat{B}\hat{A}\right) +\mathcal{O}[(\Delta t)^3] \\
-=&amp; 1  +  \hat{A}\Delta t + \hat{B}\Delta t + \frac{(\Delta t)^2}{2} \left(\hat{A}\hat{A} + \hat{B}\hat{B}  + \hat{A}\hat{B} + \hat{B}\hat{A}\right) +\mathcal{O}[(\Delta t)^3] \\
+I &amp;= |0\rangle\langle 0 | + |1\rangle \langle 1| \\
+&amp;= |+\rangle \langle + | + |-\rangle\langle -| \\
+X &amp;= |+\rangle\langle + | - |-\rangle \langle -| \\
+Z &amp;= |0\rangle\langle 0 | - |1\rangle \langle 1| \\
 \end{align}
 \end{split}\]</div>
 </div>
-<p>Note that <span class="math notranslate nohighlight">\(\Delta t\)</span> is a scalar and we can add them up together, and from eq. <a class="reference internal" href="#equation-eqn-4-49-7">(7)</a> and eq. <a class="reference internal" href="#equation-eqn-4-49-8">(8)</a> we could conclude that <span class="math notranslate nohighlight">\( e^{(\hat{A}+\hat{B})\Delta t}=e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-\frac{1}{2}[\hat{A},\hat{B}]\Delta t^2} +\mathcal{O}[(\Delta t)^3]\)</span>.</p>
+<p>Then we could use eq. <a class="reference internal" href="#equation-eqn-4-20-4">(4)</a> and re-write eq. <a class="reference internal" href="#equation-eqn-4-20-3">(3)</a> as</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-5">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-5">
+<span class="eqno">(5)<a class="headerlink" href="#equation-eqn-4-20-5" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+U =&amp; |+\rangle\langle +|\otimes I + |-\rangle\langle -| \otimes Z \\
+=&amp;|+\rangle\langle +|\otimes |0\rangle\langle 0 | +|+\rangle\langle +|\otimes |1\rangle\langle 1 |  \\
+&amp;+ |-\rangle\langle -|\otimes |0\rangle\langle 0 |  -|-\rangle\langle -|\otimes |1\rangle\langle 1 |  \\
+=&amp; I\otimes |0\rangle\langle 0| + X \otimes |1\rangle\langle 1|
+\end{align}
+\end{split}\]</div>
+</div>
+<p>We could find that the circuit shown in the problem is equivalent to <span class="math notranslate nohighlight">\(\rm CNOT\)</span> gate with <strong>second qubit as control</strong> and <strong>first qubit as target</strong>. Then the circuit identity is proved.</p>
+<hr class="docutils" />
+<p>In order to verify equation <span class="math notranslate nohighlight">\((4.24)-(4.27)\)</span> in the book for <span class="math notranslate nohighlight">\(\rm CNOT\)</span> gate with <strong>first qubit as control</strong> and <strong>second qubit as target</strong>, we could <u>make use of the circuit identity</u> and the properties of Hadamard gate in eq. <a class="reference internal" href="#equation-eqn-4-20-2">(2)</a>.</p>
+<p>For <span class="math notranslate nohighlight">\(\rm CNOT(|+\rangle\otimes |+\rangle)\)</span>, according to eq. <a class="reference internal" href="#equation-eqn-4-20-2">(2)</a> and eq. <a class="reference internal" href="#equation-eqn-4-20-3">(3)</a>, we could have</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-6">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-6">
+<span class="eqno">(6)<a class="headerlink" href="#equation-eqn-4-20-6" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+{\rm CNOT}(|+\rangle\otimes |+\rangle) &amp;= {\rm CNOT}(H\otimes H)(|0\rangle\otimes |0\rangle) \\
+&amp;= (H\otimes H)^{\dagger}(H\otimes H){\rm CNOT}(H\otimes H)(|0\rangle\otimes |0\rangle) \\
+&amp;= (H\otimes H)(H\otimes H){\rm CNOT}(H\otimes H)(|0\rangle\otimes |0\rangle) \\
+&amp;= (H\otimes H)U(|0\rangle\otimes |0\rangle)
+\end{align}
+\end{split}\]</div>
+</div>
+<p>where we have <span class="math notranslate nohighlight">\((H\otimes H)^{\dagger} = H^{\dagger}\otimes H^{\dagger} = H\otimes H\)</span>. It means that we could use the result of <span class="math notranslate nohighlight">\(U\)</span> to calculate <span class="math notranslate nohighlight">\(\rm CNOT(|+\rangle\otimes |+\rangle)\)</span>, that is,</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-7">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-7">
+<span class="eqno">(7)<a class="headerlink" href="#equation-eqn-4-20-7" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+{\rm CNOT}(|+\rangle\otimes |+\rangle) &amp;=(H\otimes H)U(|0\rangle\otimes |0\rangle) \\
+&amp;=(H\otimes H)(I\otimes |0\rangle\langle 0| + X \otimes |1\rangle\langle 1|)(|0\rangle\otimes |0\rangle)\\ 
+&amp;= (H\otimes H)(I|0\rangle\otimes |0\rangle\langle 0|0\rangle + X|0\rangle \otimes |1\rangle\langle 1|0\rangle) \\
+&amp;= (H\otimes H)(|0\rangle\otimes |0\rangle) = |+\rangle\otimes |+\rangle
+\end{align}
+\end{split}\]</div>
+</div>
+<p>For <span class="math notranslate nohighlight">\(\rm CNOT(|-\rangle\otimes |+\rangle)\)</span>, we have</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-8">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-8">
+<span class="eqno">(8)<a class="headerlink" href="#equation-eqn-4-20-8" title="Permalink to this equation">#</a></span>\[\begin{split}
+begin{align}
+{\rm CNOT}(|-\rangle\otimes |+\rangle) &amp;=(H\otimes H)U(|1\rangle\otimes |0\rangle) \\
+&amp;= (H\otimes H)(I\otimes |0\rangle\langle 0| + X \otimes |1\rangle\langle 1|)(|1\rangle\otimes |0\rangle) \\
+&amp;= (H\otimes H)(I|1\rangle\otimes |0\rangle\langle 0|0\rangle + X|1\rangle \otimes |1\rangle\langle 1|0\rangle) \\
+&amp;= (H\otimes H)(|1\rangle\otimes |0\rangle) = |-\rangle\otimes |+\rangle
+\end{align}
+\end{split}\]</div>
+</div>
+<p>For <span class="math notranslate nohighlight">\(\rm CNOT(|+\rangle\otimes |-\rangle)\)</span>, we have</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-9">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-9">
+<span class="eqno">(9)<a class="headerlink" href="#equation-eqn-4-20-9" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+{\rm CNOT}(|+\rangle\otimes |-\rangle) &amp;=(H\otimes H)U(|0\rangle\otimes |1\rangle)\\
+&amp;=(H\otimes H)(I\otimes |0\rangle\langle 0| + X \otimes |1\rangle\langle 1|)(|0\rangle\otimes |1\rangle) \\
+&amp;= (H\otimes H)(I|0\rangle\otimes |0\rangle\langle 0|1\rangle + X|0\rangle \otimes |1\rangle\langle 1|1\rangle) \\
+&amp;= (H\otimes H)(|1\rangle\otimes |1\rangle) = |-\rangle\otimes |-\rangle
+\end{align}
+\end{split}\]</div>
+</div>
+<p>For <span class="math notranslate nohighlight">\(\rm CNOT(|-\rangle\otimes |-\rangle)\)</span>, we have</p>
+<div class="math-wrapper docutils container" id="equation-eqn-4-20-10">
+<div class="math notranslate nohighlight" id="equation-eqn-4-20-10">
+<span class="eqno">(10)<a class="headerlink" href="#equation-eqn-4-20-10" title="Permalink to this equation">#</a></span>\[\begin{split}
+\begin{align}
+{\rm CNOT}(|-\rangle\otimes |-\rangle) &amp;=(H\otimes H)U(|1\rangle\otimes |1\rangle)\\
+&amp;= (H\otimes H)(I\otimes |0\rangle\langle 0| + X \otimes |1\rangle\langle 1|)(|1\rangle\otimes |1\rangle) \\
+&amp;= (H\otimes H)(I|1\rangle\otimes |0\rangle\langle 0|1\rangle + X|1\rangle \otimes |1\rangle\langle 1|1\rangle) \\
+&amp;= (H\otimes H)(|0\rangle\otimes |1\rangle) = |+\rangle\otimes |-\rangle
+\end{align}
+\end{split}\]</div>
 </div>
 </div>
 
@@ -362,23 +359,23 @@ e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-\frac{1}{2}[\hat{A},\hat{B}]\Delta t^2
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../Chapter10/index.html">
+          <a class="next-page" href="Exer4-32.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Chapter 10</div>
+                <div class="title">Exercise 4.32</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="Exer4-46.html">
+          <a class="prev-page" href="Exer4-18.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Exercise 4.46</div>
+                <div class="title">Exercise 4.18</div>
                 
               </div>
             </a>
@@ -400,29 +397,8 @@ e^{\hat{A}\Delta t}e^{\hat{B}\Delta t}e^{-\frac{1}{2}[\hat{A},\hat{B}]\Delta t^2
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">Exercise 4.49</a><ul>
-<li><a class="reference internal" href="#proof-for-4-103">Proof for 4.103</a></li>
-<li><a class="reference internal" href="#proof-for-4-104">Proof for 4.104</a></li>
-<li><a class="reference internal" href="#proof-for-4-105">Proof for 4.105</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>

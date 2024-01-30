@@ -12,5 +12,6 @@ Welcome! Here I include my solutions to exercises and questions in the textbook 
 
 Chapter2/index
 Chapter4/index
+Chapter5/index
 Chapter10/index
 ```

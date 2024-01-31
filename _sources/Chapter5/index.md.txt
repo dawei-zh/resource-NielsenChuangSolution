@@ -7,4 +7,5 @@ Here are a list of all Chapter 5 exercises.
 :maxdepth: 1
 
 Exer5-1
+Exer5-2
 ```

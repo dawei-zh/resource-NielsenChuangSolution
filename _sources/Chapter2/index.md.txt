@@ -15,6 +15,7 @@ Exer2-10
 Exer2-11
 Exer2-17
 Exer2-19
+Exer2-22
 Exer2-24
 Exer2-25
 Exer2-28
